@@ -1,0 +1,18 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Staatliches&display=swap');
+
+@import "tailwindcss";
+:root
+{
+    --font-staatliches:"Staatliches", sans-serif;
+    --font-sans:'Inter', sans-serif;
+    --dark-color:#292D32;
+    --main-color:#ffffff;
+    --background-color:#096a61;
+    --yellow-color:#fdd746;
+    --grey-color:#FFFFFFBD;
+    --light-grey:#192C27A1;
+    --bg-form:#e6e6e6;
+    --service-color:#f2f7f6;
+}
+

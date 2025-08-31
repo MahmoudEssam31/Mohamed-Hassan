@@ -4,7 +4,7 @@ import { experienceData } from '../../../data/Data';
 export default function ExperienceSection({ }) {
     const experiencesData = experienceData;
   return (
-      <div className="experience-Section flex flex-col justify-center items-center">
+      <div className="experience-Section flex flex-col justify-center items-center mt-[5rem]">
           <h2 className=" text-[2.18rem] leading-[1.5em] font-[600] my-[4rem]">Experience</h2>
           <div className="experience-details-container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:gap-x-[21.2rem] xl:gap-y-[1.2rem] md:gap-x-[10.2rem] md:gap-y-[.9rem] gap-x-[5rem] gap-y-[.7rem]">
               {experiencesData.map((item) => (

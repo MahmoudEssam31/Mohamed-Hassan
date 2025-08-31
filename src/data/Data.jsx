@@ -11,14 +11,14 @@ export const skillsCards = [
         name: "Sawtooth",
         percentage: "Advanced",
         iconType: "image",
-        img: "/skillsIcon/sawtooth.png",
+        img:`${import.meta.env.BASE_URL}skillsIcon/sawtooth.png`,
     },
     {
         id: 2,
         name: "QuestionPro",
         percentage: "Advanced",
         iconType: "image",
-        img: "/skillsIcon/questionpro.png",
+        img: `${import.meta.env.BASE_URL}skillsIcon/questionpro.png`,
     },
     // img: "/skillsIcon/questionpro.png",
     {
@@ -26,7 +26,7 @@ export const skillsCards = [
         name: "SPSS",
         percentage: "Advanced",
         iconType: "image",
-        img: "/skillsIcon/spss.jpeg",
+        img: `${import.meta.env.BASE_URL}skillsIcon/spss.jpeg`,
         // <svg
         //     focusable="false"
         //     preserveAspectRatio="xMidYMid meet"
@@ -235,5 +235,31 @@ export const experienceData = [
         id: 6,
         company: "Confield-MENA",
         date: "1 yr 6 mos",
+    },
+];
+export const projectsData = [
+    {
+        id: 1,
+        name: "Data processing & Analysis",
+        title: "Telecom Projects",
+        img: `${import.meta.env.BASE_URL}lastestPro/img4.jpeg`,
+    },
+    {
+        id: 2,
+        name: "Data processing & Analysis",
+        title: "Real estate Projecs",
+        img: `${import.meta.env.BASE_URL}lastestPro/img2.jpeg`,
+    },
+    {
+        id: 3,
+        name: "Data processing & Analysis",
+        title: "Banking Projects",
+        img: `${import.meta.env.BASE_URL}lastestPro/img3.jpeg`,
+    },
+    {
+        id: 4,
+        name: "Data processing & Analysis",
+        title: "Cars Projects",
+        img: `${import.meta.env.BASE_URL}lastestPro/img1.jpeg`,
     },
 ];

@@ -22,7 +22,7 @@ export default function HeaderHomePage() {
     //     }
     // })
     return (
-        <div className="header-componant relative bg-[#096A61] w-full xl:h-[100vh] lg:h-[33.7vh] md:h-[51.7vh] h-[163vh] ">
+        <div className="header-componant relative bg-[#096A61] w-full xl:h-[100vh] lg:h-[120vh] md:h-[110vh] h-[280vh] ">
             <div className="svg-background ">
                 <svg className="absolute bottom-0 xl:right-[1rem] lg:right-[0.7rem] md:right-[1.5rem] z-10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1700 430.7">
                     <path
@@ -34,34 +34,36 @@ export default function HeaderHomePage() {
                 </svg>
             </div>
             <CustomContainer>
-                <div className="header-HomePage flex md:flex-row flex-col md:justify-between md:items-start justify-center items-center relative xl:top-[5.5rem] lg:top-[6.2rem] md:top-[6.5rem] top-[6.8rem]  md:gap-0 gap-[3.7rem]">
-                    <div className="header-container-text md:justify-center  md:items-start justify-center items-center flex flex-col xl:gap-[1.5rem] md:gap-[1rem] gap-[1.3rem] max-w-[19%]">
+                <div className="header-HomePage flex md:flex-row flex-col xl:justify-between xl:items-start lg:justify-between lg:items-center md:justify-between md:items-center justify-center items-center relative xl:top-[5.5rem] lg:top-[6.2rem] md:top-[6.2rem] top-[6.8rem] md:gap-0 gap-[3.7rem]">
+                    <div className="header-container-text md:justify-center  md:items-start justify-center items-center flex flex-col xl:gap-[1.5rem] md:gap-[1rem] gap-[1.3rem] md:max-w-[19%] max-w-[34%]">
                         <div className="w-[120%]">
-                            <p className="text-[1.5rem] font-[500] text-[var(--main-color)]">Hey, my name is</p>
+                            <p className="lg:text-[1.5rem] text-[1.2rem]  font-[500] text-[var(--main-color)]">Hey, my name is</p>
                         </div>
-                        <h2 className="xl:text-[6.2rem] lg:text-[4.5rem] text-[4.3rem] font-[500] font-['Staatliches'] uppercase text-[var(--main-color)] leading-[.96em]">{`Mohamed Hassan`}</h2>
-                        <div className="left-svg xl:w-[266px] lg:w-[266px] md:w-[200px] w-[11.69rem]">
+                        <h2 className="xl:text-[6.2rem] lg:text-[6rem] md:text-[4.5rem] text-[5.3rem] font-[500] font-['Staatliches'] uppercase text-[var(--main-color)] leading-[.96em]">{`Mohamed Hassan`}</h2>
+                        <div className="left-svg xl:w-[266px] lg:w-[266px] md:w-[200px] w-[18.69rem]">
                             <img className="w-[100%]" src="https://beverr.tempurl.host/wp-content/uploads/2022/07/decorative-line-1.svg" alt="" />
                         </div>
                         <div className=" w-[120%]">
-                            <h4 className="text-[1.5rem] uppercase font-[500] text-[var(--grey-color)] mt-[1rem]">Data Processing & Analysis Expert</h4>
+                            <h4 className="lg:text-[1.5rem] text-[1.1rem] uppercase font-[500] text-[var(--grey-color)] mt-[1rem] md:text-start text-center md-w-[80%] w-[110%] ">
+                                Data Processing & Analysis Expert
+                            </h4>
                         </div>
                     </div>
-                    <div className="header-container-img flex xl:w-[23.5rem] lg:w-[22.128rem] md:w-[16.87rem] w-[23.39rem] xl:h-[39rem] lg:h-[22.125rem] md:h-[16.87rem] h-[23.39rem] rounded-full justify-center items-center bg-amber-300 z-20 me-[-2.5rem] overflow-hidden">
-                        <img src={"/PersonlImg/img4.svg"} alt="" className="w-full h-[30rem] object-cover relative top-18" />
+                    <div className="header-container-img flex xl:w-[23.5rem] xl:h-[39rem] lg:w-[20.5rem] lg:h-[33rem] md:w-[16rem] md:h-[25rem] w-[90%] h-[38.39rem] rounded-full justify-center items-center bg-amber-300 z-20 md:me-[-2.5rem] overflow-hidden">
+                        <img src={`${import.meta.env.BASE_URL}PersonlImg/img4.svg`} alt="" className="w-full h-[30rem] object-cover relative top-18" />
                     </div>
-                    <div className="header-container-experience  md:justify-center md:items-start justify-center items-end flex flex-col xl:gap-[1rem] md:gap-[1rem] gap-[1.3rem]">
-                        <div className="years-of-experience flex flex-col items-end">
-                            <h3 className="text-[var(--grey-color)] text-[1.5em] font-[600]">Years of experience</h3>
-                            <span className="text-[var(--main-color)] text-[4.31em] font-[600] font-['Staatliches']">{count}+</span>
+                    <div className="header-container-experience  md:justify-center md:items-start justify-center items-center flex flex-col xl:gap-[1rem] md:gap-[1rem] gap-[.7rem]">
+                        <div className="years-of-experience flex flex-col md:items-end items-center">
+                            <h3 className="text-[var(--grey-color)] md:text-[1.5em] text-[1.1em] font-[600]">Years of experience</h3>
+                            <span className="text-[var(--main-color)] md:text-[4.31em] text-[2.8em] font-[600] font-['Staatliches']">{count}+</span>
                         </div>
-                        <div className="Projects-done flex xl:ms-[4.5rem] flex-col items-end">
-                            <h3 className="text-[var(--grey-color)] text-[1.5em] font-[600]">Projects done</h3>
-                            <span className="text-[var(--main-color)] text-[4.31em] font-[600] font-['Staatliches']">3000+</span>
+                        <div className="Projects-done flex xl:ms-[4.5rem] lg:ms-[4.5rem] flex-col md:items-end items-center">
+                            <h3 className="text-[var(--grey-color)] md:text-[1.5em] text-[1.1em] font-[600]">Projects done</h3>
+                            <span className="text-[var(--main-color)] md:text-[4.31em] text-[2.4em] font-[600] font-['Staatliches']">3000+</span>
                         </div>
-                        <div className="clients flex flex-col items-end xl:ms-[8.7rem]">
-                            <h3 className="text-[var(--grey-color)] text-[1.5em] font-[600] ">Clients</h3>
-                            <span className="text-[var(--main-color)] text-[4.31em] font-[600] font-['Staatliches']">15+</span>
+                        <div className="clients flex flex-col md:items-end items-center md:ms-[8.7rem]">
+                            <h3 className="text-[var(--grey-color)] md:text-[1.5em] text-[1.1em] font-[600] ">Clients</h3>
+                            <span className="text-[var(--main-color)] md:text-[4.31em] text-[2.8em] font-[600] font-['Staatliches']">15+</span>
                         </div>
                     </div>
                 </div>

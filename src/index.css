@@ -16,3 +16,6 @@
     --service-color:#f2f7f6;
 }
 
+body {
+    overflow-x: hidden;
+}

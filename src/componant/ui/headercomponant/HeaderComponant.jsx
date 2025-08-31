@@ -3,7 +3,7 @@ import CustomContainer from '../customContainer/CustomContainer'
 
 export default function HeaderComponant({ title, img }) {
     return (
-        <div className="header-componant relative bg-[#096A61] w-full xl:h-[62vh] lg:h-[33.7vh] md:h-[51.7vh] h-[163vh] ">
+        <div className="header-componant relative bg-[#096A61] w-full xl:h-[62vh] lg:h-[62vh] md:h-[51.7vh] h-[163vh] ">
             <div className="svg-background ">
                 <svg
                     className="absolute bottom-0  xl:right-[1rem] lg:right-[0.7rem] md:right-[1.5rem] z-10 "
@@ -18,9 +18,9 @@ export default function HeaderComponant({ title, img }) {
                 </svg>
             </div>
             <CustomContainer>
-                <div className="header-componant-container flex md:flex-row flex-col md:justify-between md:items-start justify-center items-center relative xl:top-[5.5rem] lg:top-[6.2rem] md:top-[6.5rem] top-[6.8rem]  md:gap-0 gap-[3.7rem]">
+                <div className="header-componant-container flex md:flex-row flex-col md:justify-between md:items-start justify-center items-center relative xl:top-[5.5rem] lg:top-[6.2rem] md:top-[6.5rem] top-[6.8rem] md:gap-0 gap-[3.7rem]">
                     <div className="header-container-text md:justify-center md:items-start justify-center items-center flex flex-col xl:gap-[1rem] md:gap-[1rem] gap-[1.3rem]">
-                        <h2 className="xl:text-[6rem] lg:text-[4.5rem] text-[4.3rem] font-[500] font-['Staatliches'] uppercase text-[var(--main-color)] leading-[.9em]">{title}</h2>
+                        <h2 className="xl:text-[6rem] lg:text-[6rem] text-[5rem] font-[500] font-['Staatliches'] uppercase text-[var(--main-color)] leading-[.9em]">{title}</h2>
                         <div className="left-svg  xl:w-[266px] lg:w-[266px] md:w-[200px] w-[11.69rem]">
                             <img className="w-[100%]" src="https://beverr.tempurl.host/wp-content/uploads/2022/07/decorative-line-1.svg" alt="" />
                             {/* <svg xmlns="http://www.w3.org/2000/svg" xl:width="266.045"  height="38.672">
@@ -31,7 +31,7 @@ export default function HeaderComponant({ title, img }) {
                         </svg> */}
                         </div>
                     </div>
-                    <div className="header-container-img flex xl:w-[28.128rem] lg:w-[22.128rem] md:w-[16.87rem] w-[23.39rem] xl:h-[28.125rem] lg:h-[22.125rem] md:h-[16.87rem] h-[23.39rem] rounded-full justify-center items-center bg-amber-300 z-20 mt-">
+                    <div className="header-container-img flex xl:w-[28.128rem] lg:w-[26.128rem] md:w-[16.87rem] w-[23.39rem] xl:h-[28.125rem] lg:h-[26.125rem] md:h-[16.87rem] h-[23.39rem] rounded-full justify-center items-center bg-amber-300 z-20 mt-">
                         <img src={img} alt="" />
                     </div>
                 </div>

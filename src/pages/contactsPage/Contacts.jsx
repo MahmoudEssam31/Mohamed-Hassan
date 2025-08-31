@@ -7,7 +7,7 @@ import ContactEmail from './contactEmail/ContactEmail';
 export default function Contacts() {
   return (
       <div className="contacts">
-          <HeaderComponant title={"Contacts"} img={" "} />
+          <HeaderComponant title={"Contacts Me"} img={" "} />
           <CustomContainer>
               <div className="contacts">
                   <div className="contacts-contact flex flex-col gap-[1.5rem] justify-center mt-[4.5rem] text-[1.5rem] font-[600]">

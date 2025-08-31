@@ -9,7 +9,7 @@ import ServicesSection from './servicesSection/ServicesSection';
 export default function About() {
   return (
       <div>
-          <HeaderComponant title={"About"} img={" "} />
+          <HeaderComponant title={"About Me"} img={" "} />
           <CustomContainer>
               <AboutMe />
               <ServicesSection />

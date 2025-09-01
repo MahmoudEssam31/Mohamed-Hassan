@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig({
     plugins: [react(), tailwindcss()],
-    base: "/Mohamed-Hassan-Portfolio/",
+    base: "/Mohamed-Hassan/",
 });
 
 // module.exports = {

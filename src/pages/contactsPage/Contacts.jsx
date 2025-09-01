@@ -15,7 +15,7 @@ export default function Contacts() {
                           <span className="  flex justify-center items-center text-[1.5rem] h-[3.5rem] w-[3.5rem] rounded-4xl text-[var(--main-color)] bg-[var(--background-color)] ">
                               <IoCall className="" />
                           </span>
-                          <span className="">01222222222</span>
+                          <span className="">00201000651512</span>
                       </div>
                       <div className="contacts-contact-location flex items-center gap-[1.5rem] ">
                           <span className=" flex justify-center items-center text-[1.5rem] h-[3.5rem] w-[3.5rem] rounded-4xl text-[var(--main-color)] bg-[var(--background-color)]">

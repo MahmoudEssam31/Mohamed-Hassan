@@ -16,7 +16,7 @@ export default function HomePage() {
         <div>
             <HeaderHomePage />
             <CustomContainer>
-                <div className="experience-Section grid grid-cols-1 md:grid-cols-4 lg:grid-cols-7 gap-[.5rem] md:mt-[15rem] mt-[8rem]">
+                <div className="experience-Section grid grid-cols-1 md:grid-cols-4 lg:grid-cols-7 md:gap-[.5rem] gap-[1.8rem] md:mt-[15rem] mt-[4rem]">
                     {skillsCardData.map((item) => (
                         <SkillsCards title={item.name} percentage={item.percentage} icon={item.icon} iconType={item.iconType} img={item.img} />
                     ))}

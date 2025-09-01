@@ -22,7 +22,7 @@ export default function HeaderHomePage() {
     //     }
     // })
     return (
-        <div className="header-componant relative bg-[#096A61] w-full xl:h-[100vh] lg:h-[120vh] md:h-[110vh] h-[280vh] ">
+        <div className="header-componant relative bg-[url('/bg/bg.jpeg')]  w-full xl:h-[100vh] lg:h-[120vh] md:h-[110vh] h-[220vh] bg-cover  bg-top  ">
             <div className="svg-background ">
                 <svg className="absolute bottom-0 xl:right-[1rem] lg:right-[0.7rem] md:right-[1.5rem] z-10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1700 430.7">
                     <path
@@ -35,16 +35,16 @@ export default function HeaderHomePage() {
             </div>
             <CustomContainer>
                 <div className="header-HomePage flex md:flex-row flex-col xl:justify-between xl:items-start lg:justify-between lg:items-center md:justify-between md:items-center justify-center items-center relative xl:top-[5.5rem] lg:top-[6.2rem] md:top-[6.2rem] top-[6.8rem] md:gap-0 gap-[3.7rem]">
-                    <div className="header-container-text md:justify-center  md:items-start justify-center items-center flex flex-col xl:gap-[1.5rem] md:gap-[1rem] gap-[1.3rem] md:max-w-[19%] max-w-[34%]">
+                    <div className="header-container-text md:justify-center  md:items-start justify-center items-center flex flex-col xl:gap-[1.5rem] md:gap-[1rem] gap-[1.3rem] md:max-w-[19%] max-w-[50%]">
                         <div className="w-[120%]">
-                            <p className="lg:text-[1.5rem] text-[1.2rem]  font-[500] text-[var(--main-color)]">Hey, my name is</p>
+                            <p className="lg:text-[1.5rem] md:text-start text-center text-[1.2rem]  font-[500] text-[var(--main-color)]">Hey, my name is</p>
                         </div>
                         <h2 className="xl:text-[6.2rem] lg:text-[6rem] md:text-[4.5rem] text-[5.3rem] font-[500] font-['Staatliches'] uppercase text-[var(--main-color)] leading-[.96em]">{`Mohamed Hassan`}</h2>
                         <div className="left-svg xl:w-[266px] lg:w-[266px] md:w-[200px] w-[18.69rem]">
                             <img className="w-[100%]" src="https://beverr.tempurl.host/wp-content/uploads/2022/07/decorative-line-1.svg" alt="" />
                         </div>
                         <div className=" w-[120%]">
-                            <h4 className="lg:text-[1.5rem] text-[1.1rem] uppercase font-[500] text-[var(--grey-color)] mt-[1rem] md:text-start text-center md-w-[80%] w-[110%] ">
+                            <h4 className="lg:text-[1.5rem] text-[1.1rem] uppercase font-[500] text-[var(--grey-color)] mt-[1rem] md:text-start text-center md-w-[80%] w-[110%]">
                                 Data Processing & Analysis Expert
                             </h4>
                         </div>

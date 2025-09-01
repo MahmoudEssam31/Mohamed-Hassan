@@ -1,4 +1,4 @@
-import { createBrowserRouter } from "react-router-dom";
+import { createBrowserRouter, createHashRouter } from "react-router-dom";
 import About from "../pages/aboutPage/About";
 import Contacts from "../pages/contactsPage/Contacts";
 import HomePage from "../pages/homePage/HomePage";
@@ -7,35 +7,30 @@ import Projects from "../pages/projectsPage/Projects";
 
 
 
-const Routing = createBrowserRouter(
-    [
-        {
-            path: "/",
-            element: <Layout />,
-            children: [
-                {
-                    index: true,
-                    element: <HomePage />,
-                },
-                {
-                    path: "about",
-                    element: <About />,
-                },
-                {
-                    path: "projects",
-                    element: <Projects />,
-                },
-                {
-                    path: "contacts",
-                    element: <Contacts />,
-                },
-            ],
-        },
-    ],
+const Routing = createHashRouter([
     {
-        basename: "/Mohamed-Hassan-Portfolio",
+        path: "/",
+        element: <Layout />,
+        children: [
+            {
+                index: true,
+                element: <HomePage />,
+            },
+            {
+                path: "about",
+                element: <About />,
+            },
+            {
+                path: "projects",
+                element: <Projects />,
+            },
+            {
+                path: "contacts",
+                element: <Contacts />,
+            },
+        ],
     },
-);
+]);
 
 export default Routing
 

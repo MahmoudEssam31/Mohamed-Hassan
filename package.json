@@ -4,14 +4,15 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://mahmoudessam31.github.io/Mohamed-Hassan-Portfolio/",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview",
-    "deploy": "gh-pages -d dist"
-  },
+  "homepage": "https://mahmoudessam31.github.io/Mohamed-Hassan/",
+ "scripts": {
+  "dev": "vite",
+    "start": "vite", 
+  "build": "vite build",
+  "preview": "vite preview",
+  "deploy": "gh-pages -d dist"
+}
+,
   "dependencies": {
     "@react-icons/all-files": "^4.1.0",
     "@tailwindcss/vite": "^4.1.12",

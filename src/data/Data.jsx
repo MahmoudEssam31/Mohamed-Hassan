@@ -87,7 +87,7 @@ export const servicesCards = [
         id: 1,
         idNum: "01.",
         name: "Survey Scripting (Sawtooth, QuestionPro)",
-        description: "lorem8effffffffff rferwferfwf",
+        // description: "lorem8effffffffff rferwferfwf",
         icon: (
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
                 <path
@@ -109,8 +109,8 @@ export const servicesCards = [
     {
         id: 2,
         idNum: "02.",
-        name: "Data Tabulation & Coding",
-        description: "lorem8effffffffff rferwferfwf",
+        name: "Coding",
+        // description: "lorem8effffffffff rferwferfwf",
         icon: (
             <TbReportAnalytics size={100} />
 
@@ -135,7 +135,7 @@ export const servicesCards = [
         id: 3,
         idNum: "03.",
         name: "Data Cleaning & Validation",
-        description: "lorem8effffffffff rferwferfwf",
+        // description: "lorem8effffffffff rferwferfwf",
         icon: (
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
                 <path
@@ -158,7 +158,7 @@ export const servicesCards = [
         id: 4,
         idNum: "04.",
         name: "Statistical Analysis (SPSS, Survey Reporter)",
-        description: "lorem8effffffffff rferwferfwf",
+        // description: "lorem8effffffffff rferwferfwf",
         icon: (
             <SiSimpleanalytics size={60} />
             // <GrAnalytics size={60} />
@@ -183,7 +183,7 @@ export const servicesCards = [
         id: 5,
         idNum: "05.",
         name: "Interactive Dashboards (Power BI, Excel)",
-        description: "lorem8effffffffff rferwferfwf",
+        // description: "lorem8effffffffff rferwferfwf",
         icon: (
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
                 <path
@@ -247,7 +247,7 @@ export const projectsData = [
     {
         id: 2,
         name: "Data processing & Analysis",
-        title: "Real estate Projecs",
+        title: "Health care Projecs",
         img: `${import.meta.env.BASE_URL}lastestPro/img2.jpeg`,
     },
     {
@@ -259,7 +259,7 @@ export const projectsData = [
     {
         id: 4,
         name: "Data processing & Analysis",
-        title: "Cars Projects",
+        title: "Automotive Projects",
         img: `${import.meta.env.BASE_URL}lastestPro/img1.jpeg`,
     },
 ];

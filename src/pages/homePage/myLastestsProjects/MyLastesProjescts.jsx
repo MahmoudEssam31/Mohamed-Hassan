@@ -5,10 +5,12 @@ import { projectsData } from '../../../data/Data';
 export default function MyLastesProjescts() {
   const lastestProjectsData = projectsData;
   return (
-      <div className="my-lastest-projects mt-[7rem] grid grid-cols-1 md:grid-cols-2 xl:gap-[3rem] lg:gap-[2.5rem] md:ms-0 ms-[2rem]">
-          <div className="my-lastest-projects-left flex flex-col gap-[2rem]">
-              <h2 className="text-[2.8rem] leading-[1.5em] font-[400] uppercase font-[Staatliches]">My latest projects</h2>
-              <span className="text-[1rem] w-[60%] leading-[1.5em] md:ms-0 ms-[4rem] text-gray-400">Vivamus eget aliquam dui. Integer eu arcu vel arcu suscipit ultrices quis non mauris.</span>
+      <div className="my-lastest-projects mt-[7rem] grid grid-cols-1 md:grid-cols-2 xl:gap-[3rem] lg:gap-[2.5rem] md:ms-0 ms-[.5rem]">
+          <div className="my-lastest-projects-left flex flex-col md:gap-[2rem] gap-[1rem]">
+              <h2 className="md:text-[2.8rem] text-[1.8rem] leading-[1.5em] font-[400] uppercase font-[Staatliches]">My latest projects</h2>
+              <span className="md:text-[1rem] text-[.9rem] w-[60%] leading-[1.5em]   text-gray-400">
+                  Vivamus eget aliquam dui. Integer eu arcu vel arcu suscipit ultrices quis non mauris.
+              </span>
               {lastestProjectsData
                   .filter((item) => [1, 2].includes(item.id))
                   .map((item) => (

@@ -3,12 +3,9 @@ import CustomContainer from '../customContainer/CustomContainer'
 
 export default function HeaderComponant({ title, img }) {
     return (
-        <div className="header-componant relative bg-[#096A61] w-full xl:h-[62vh] lg:h-[62vh] md:h-[51.7vh] h-[163vh] ">
+        <div className="header-componant relative bg-[url('/bg/bg.jpeg')]  w-full xl:h-[62vh] lg:h-[62vh] md:h-[51.7vh] h-[163vh] ">
             <div className="svg-background ">
-                <svg
-                    className="absolute bottom-0  xl:right-[1rem] lg:right-[0.7rem] md:right-[1.5rem] z-10 "
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 1700 430.7">
+                <svg className="absolute bottom-0  xl:right-[1rem] lg:right-[0.7rem] md:right-[1.5rem] z-10 " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1700 430.7">
                     <path
                         fill="#3a8881"
                         height="34.672"

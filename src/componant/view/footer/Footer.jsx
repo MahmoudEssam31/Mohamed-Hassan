@@ -10,12 +10,12 @@ export default function Footer() {
     return (
         <div className="footer-container  bg-[var(--service-color)] lg:py-[2.5rem] py-[1.2rem]">
             <CustomContainer className="relative">
-                <div className="footer text-[---color]  flex md:flex-row flex-col md:justify-between md:items-center text-[.8rem]  justify-center items-center ">
+                <div className="footer text-[---color]  flex md:flex-row flex-col md:justify-between md:items-center md:text-[.8rem] text-[.6rem] gap-[1rem]  justify-center items-center ">
                     <h2>
                         © 2025 <a href="https://www.linkedin.com/in/mahmoud-essam-11435684?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Mahmoud Essam</a>
                     </h2>
                     <div className={`nav-menu  top-15  bg-[--service-color] lg:flex duration-500`}>
-                        <ul className={` flex justify-center  text-[#797575] items-center text-[.8rem] font-[600]  md:gap-[3rem] lg:flex-row md:flex-col flex-col lg:gap-[5rem] `}>
+                        <ul className={` flex justify-center  text-[#797575] items-center text-[.8rem] font-[600]  md:gap-[3rem] gap-[3rem] lg:flex-row md:flex-col flex-row lg:gap-[5rem] `}>
                             <NavLink className={({ isActive }) => `hover:text-[var(--dark-color)] duration-200 ${isActive ? "text-[var(--dark-color)] not-hover:" : ""}`} to={"/"}>
                                 Home
                             </NavLink>

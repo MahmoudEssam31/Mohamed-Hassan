@@ -15,7 +15,7 @@ export default function Footer() {
                         © 2025 <a href="https://www.linkedin.com/in/mahmoud-essam-11435684?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Mahmoud Essam</a>
                     </h2>
                     <div className={`nav-menu  top-15  bg-[--service-color] lg:flex duration-500`}>
-                        <ul className={` flex justify-center  text-[#797575] items-center text-[.8rem] font-[600]  md:gap-[3rem] gap-[3rem] lg:flex-row md:flex-col flex-row lg:gap-[5rem] `}>
+                        <ul className={` flex justify-center  text-[#797575] items-center text-[.8rem] font-[600]  md:gap-[2rem] gap-[3rem] lg:flex-row  flex-row lg:gap-[5rem] `}>
                             <NavLink className={({ isActive }) => `hover:text-[var(--dark-color)] duration-200 ${isActive ? "text-[var(--dark-color)] not-hover:" : ""}`} to={"/"}>
                                 Home
                             </NavLink>

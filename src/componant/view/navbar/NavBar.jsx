@@ -10,17 +10,17 @@ import { HiOutlineMail } from "react-icons/hi";
 export default function NavBar() {
     const [isOpen, setIsOpen] = React.useState(false);
     return (
-        <div className="navbar-container  bg-[#003060] lg:py-[2.5rem] py-[1.2rem]">
+        <div className="navbar-container  bg-[#003060] lg:py-[2rem] py-[1.2rem]">
             <CustomContainer className="relative">
                 <div className="navbar text-white flex justify-between items-center ">
                     <Logo />
-                    <span className="cursor-pointer z-60 lg:hidden absolute md:right-10 md:top-5 right-6 " onClick={() => setIsOpen(!isOpen)}>
+                    <span className="cursor-pointer z-60 lg:hidden absolute md:right-10 md:top-10 right-6 " onClick={() => setIsOpen(!isOpen)}>
                         {isOpen ? <MdClose size={26} /> : <CgMenuLeft size={26} />}
                     </span>
                     <div
-                        className={`nav-menu absolute xl:right-110 xl:top-10 lg:right-90 lg:top-10 md:right-0 md:top-10  right-0 z-50  top-15  bg-[var(--background-color)] lg:flex duration-500 ${
-                            isOpen ? "flex" : "hidden"
-                        } lg:flex items-center`}>
+                        className={`nav-menu fixed inset-0 bg-[#003060] z-50 flex flex-col justify-center items-center duration-500
+    ${isOpen ? "opacity-100 visible" : "opacity-0 invisible"} 
+    lg:static lg:flex lg:flex-row lg:gap-[5rem] lg:bg-transparent lg:opacity-100 lg:visible`}>
                         <ul className={` flex justify-center text-[#ffffffcc]  items-center lg:text-[1.1rem] md:text-[.95rem] font-[600] md:gap-[3rem] lg:flex-row md:flex-col flex-col lg:gap-[5rem]`}>
                             <NavLink className={({ isActive }) => `hover:text-[#ffffff] duration-200 ${isActive ? "text-[#ffffff] not-hover:" : ""}`} to={"/"}>
                                 Home

@@ -17,11 +17,16 @@ export default function NavBar() {
                     <span className="cursor-pointer z-60 lg:hidden absolute md:right-10 md:top-10 right-6 " onClick={() => setIsOpen(!isOpen)}>
                         {isOpen ? <MdClose size={26} /> : <CgMenuLeft size={26} />}
                     </span>
+
                     <div
                         className={`nav-menu fixed inset-0 bg-[#003060] z-50 flex flex-col justify-center items-center duration-500
     ${isOpen ? "opacity-100 visible" : "opacity-0 invisible"} 
     lg:static lg:flex lg:flex-row lg:gap-[5rem] lg:bg-transparent lg:opacity-100 lg:visible`}>
-                        <ul className={` flex justify-center text-[#ffffffcc]  items-center lg:text-[1.1rem] md:text-[.95rem] font-[600] md:gap-[3rem] lg:flex-row md:flex-col flex-col lg:gap-[5rem]`}>
+                        <div className="mt-10 mb-8 gap-10 lg:hidden">
+                            <Logo />
+                        </div>
+                        <ul
+                            className={` flex justify-center text-[#ffffffcc]  items-center lg:text-[1.1rem] md:text-[.95rem] font-[600] md:gap-[3rem] gap-[1rem] lg:flex-row md:flex-col flex-col lg:gap-[5rem]`}>
                             <NavLink onClick={() => setIsOpen(false)} className={({ isActive }) => `hover:text-[#ffffff] duration-200 ${isActive ? "text-[#ffffff] not-hover:" : ""}`} to={"/"}>
                                 Home
                             </NavLink>

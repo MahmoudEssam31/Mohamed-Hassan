@@ -4,6 +4,7 @@ import HeaderComponant from '../../componant/ui/headercomponant/HeaderComponant'
 import MyLastesProCard from '../homePage/myLastestsProjects/MyLastesProCard';
 import { projectsData } from '../../data/Data';
 import LetsTalk from '../homePage/letsTalk/LetsTalk';
+import ProjectsTalkTo from './projectsTalk/ProjectsTalkTo';
 
 export default function Projects({img,title,name,className }) {
     const projectsDataCard = projectsData;
@@ -24,7 +25,7 @@ export default function Projects({img,title,name,className }) {
                   ))}
               </div>
               <div className="project-letsTalk">
-                  <LetsTalk classNamecontainer="fex flex-col justify-center items-center " classNametext="lg:top-[-7.5rem] lg:left-[5.4rem] md:top-[6.1rem] md:left-[4.8rem]" classNameImg=" " />
+                  <ProjectsTalkTo />
               </div>
           </CustomContainer>
       </div>

@@ -6,7 +6,7 @@ import { servicesCards } from '../../../data/Data';
 export default function ServicesSection() {
     const cardData = servicesCards;
   return (
-      <div className="services-section bg-[var(--service-color)]  -mx-[56px] mt-[7rem]">
+      <div className="services-section bg-[var(--service-color)]  lg:-mx-[56px] md:-mx-[44px] -mx-[20px] mt-[7rem]">
           <CustomContainer>
               <div className="services-section-container flex flex-col justify-center items-center gap-[2.5rem] mt-[10rem]">
                   <h2 className="text-[2.18rem] leading-[1.5em] font-[600] uppercase mt-[8rem]"> my Services</h2>

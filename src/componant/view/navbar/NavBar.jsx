@@ -22,16 +22,16 @@ export default function NavBar() {
     ${isOpen ? "opacity-100 visible" : "opacity-0 invisible"} 
     lg:static lg:flex lg:flex-row lg:gap-[5rem] lg:bg-transparent lg:opacity-100 lg:visible`}>
                         <ul className={` flex justify-center text-[#ffffffcc]  items-center lg:text-[1.1rem] md:text-[.95rem] font-[600] md:gap-[3rem] lg:flex-row md:flex-col flex-col lg:gap-[5rem]`}>
-                            <NavLink className={({ isActive }) => `hover:text-[#ffffff] duration-200 ${isActive ? "text-[#ffffff] not-hover:" : ""}`} to={"/"}>
+                            <NavLink onClick={() => setIsOpen(false)} className={({ isActive }) => `hover:text-[#ffffff] duration-200 ${isActive ? "text-[#ffffff] not-hover:" : ""}`} to={"/"}>
                                 Home
                             </NavLink>
-                            <NavLink className={({ isActive }) => `hover:text-[#ffffff] duration-200 ${isActive ? "text-[#ffffff] not-hover:" : ""}`} to={"/about"}>
+                            <NavLink onClick={() => setIsOpen(false)} className={({ isActive }) => `hover:text-[#ffffff] duration-200 ${isActive ? "text-[#ffffff] not-hover:" : ""}`} to={"/about"}>
                                 About
                             </NavLink>
-                            <NavLink className={({ isActive }) => `hover:text-[#ffffff] duration-200 ${isActive ? "text-[#ffffff] not-hover:" : ""}`} to={"/projects"}>
+                            <NavLink onClick={() => setIsOpen(false)} className={({ isActive }) => `hover:text-[#ffffff] duration-200 ${isActive ? "text-[#ffffff] not-hover:" : ""}`} to={"/projects"}>
                                 Projects
                             </NavLink>
-                            <NavLink className={({ isActive }) => `hover:text-[#ffffff] duration-200 ${isActive ? "text-[#ffffff] not-hover:" : ""}`} to={"/contacts"}>
+                            <NavLink onClick={() => setIsOpen(false)} className={({ isActive }) => `hover:text-[#ffffff] duration-200 ${isActive ? "text-[#ffffff] not-hover:" : ""}`} to={"/contacts"}>
                                 Contacts
                             </NavLink>
                         </ul>

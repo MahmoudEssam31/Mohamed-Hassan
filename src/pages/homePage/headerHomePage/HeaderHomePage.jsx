@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import CustomContainer from "../../../componant/ui/customContainer/CustomContainer";
 
 export default function HeaderHomePage() {
-    const experience = new Date().getFullYear() - 2010;
+    const experience = new Date().getFullYear() - 2015;
     const target = experience;
     const pro = 399;
     const [count, setCount] = React.useState(0);
@@ -22,7 +22,7 @@ export default function HeaderHomePage() {
     //     }
     // })
     return (
-        <div className="header-componant relative bg-[url('/bg/bg.jpeg')]  w-full xl:h-[100vh] lg:h-[120vh] md:h-[110vh] h-[220vh] bg-cover  bg-top  ">
+        <div className="header-componant relative bg-[url('/bg/bg.jpeg')]  w-full 2xl:h-[100vh] xl:h-[100vh] lg:h-[120vh] md:h-[110vh] h-[210vh] bg-cover  bg-top  ">
             <div className="svg-background ">
                 <svg className="absolute bottom-0 xl:right-[1rem] lg:right-[0.7rem] md:right-[1.5rem] z-10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1700 430.7">
                     <path
@@ -34,12 +34,12 @@ export default function HeaderHomePage() {
                 </svg>
             </div>
             <CustomContainer>
-                <div className="header-HomePage flex md:flex-row flex-col xl:justify-between xl:items-start lg:justify-between lg:items-center md:justify-between md:items-center justify-center items-center relative xl:top-[5.5rem] lg:top-[6.2rem] md:top-[6.2rem] top-[6.8rem] md:gap-0 gap-[3.7rem]">
-                    <div className="header-container-text md:justify-center  md:items-start justify-center items-center flex flex-col xl:gap-[1.5rem] md:gap-[1rem] gap-[1.3rem] md:max-w-[19%] max-w-[50%]">
+                <div className="header-HomePage flex md:flex-row flex-col xl:justify-between xl:items-start lg:justify-between lg:items-center md:justify-between md:items-center justify-center items-center relative 2xl:top-[13.5rem]  xl:top-[5.5rem] lg:top-[6.2rem] md:top-[6.2rem] top-[6.8rem] md:gap-0 gap-[3.7rem]">
+                    <div className="header-container-text md:justify-center  md:items-start justify-center items-center flex flex-col xl:gap-[1.5rem] md:gap-[1rem] gap-[1.3rem]  md:max-w-[19%] max-w-[50%]">
                         <div className="w-[120%]">
-                            <p className="lg:text-[1.5rem] md:text-start text-center text-[1.2rem]  font-[500] text-[var(--main-color)]">Hey, my name is</p>
+                            <p className="2xl:text-[3.5rem] lg:text-[1.5rem] md:text-start text-center text-[1.2rem]  font-[500] text-[var(--main-color)]">Hey, my name is</p>
                         </div>
-                        <h2 className="xl:text-[6.2rem] lg:text-[6rem] md:text-[4.5rem] text-[5.3rem] font-[500] font-['Staatliches'] uppercase text-[var(--main-color)] leading-[.96em]">{`Mohamed Hassan`}</h2>
+                        <h2 className="2xl:text-[10.2rem] xl:text-[6.2rem] lg:text-[6rem] md:text-[4.5rem] text-[5.3rem] font-[500] font-['Staatliches'] uppercase text-[var(--main-color)] leading-[.96em]">{`Mohamed Hassan`}</h2>
                         <div className="left-svg xl:w-[266px] lg:w-[266px] md:w-[200px] w-[18.69rem]">
                             <img className="w-[100%]" src="https://beverr.tempurl.host/wp-content/uploads/2022/07/decorative-line-1.svg" alt="" />
                         </div>
@@ -49,8 +49,8 @@ export default function HeaderHomePage() {
                             </h4>
                         </div>
                     </div>
-                    <div className="header-container-img flex xl:w-[23.5rem] xl:h-[39rem] lg:w-[20.5rem] lg:h-[33rem] md:w-[16rem] md:h-[25rem] w-[90%] h-[38.39rem] rounded-full justify-center items-center bg-amber-300 z-20 md:me-[-2.5rem] overflow-hidden">
-                        <img src={`${import.meta.env.BASE_URL}PersonlImg/img4.svg`} alt="" className="w-full h-[30rem] object-cover relative top-18" />
+                    <div className="header-container-img flex 2xl:w-[40.5rem] 2xl:h-[69rem]  xl:w-[23.5rem] xl:h-[39rem] lg:w-[20.5rem] lg:h-[33rem] md:w-[16rem] md:h-[25rem] w-[90%] h-[38.39rem] rounded-full justify-center items-center bg-amber-300 z-20 md:me-[-2.5rem] overflow-hidden">
+                        <img src={`${import.meta.env.BASE_URL}PersonlImg/img4.svg`} alt="" className="w-full  2xl:h-[60rem] h-[30rem] object-cover relative top-18" />
                     </div>
                     <div className="header-container-experience  md:justify-center md:items-start justify-center items-center flex flex-col xl:gap-[1rem] md:gap-[1rem] gap-[.7rem]">
                         <div className="years-of-experience flex flex-col md:items-end items-center">

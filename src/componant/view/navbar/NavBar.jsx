@@ -20,8 +20,8 @@ export default function NavBar() {
 
                     <div
                         className={`nav-menu fixed inset-0 bg-[#003060] z-50 flex flex-col justify-center items-center duration-500
-    ${isOpen ? "opacity-100 visible" : "opacity-0 invisible"} 
-    lg:static lg:flex lg:flex-row lg:gap-[5rem] lg:bg-transparent lg:opacity-100 lg:visible`}>
+                            ${isOpen ? "opacity-100 visible" : "opacity-0 invisible"} 
+                            lg:static lg:flex lg:flex-row lg:gap-[5rem] lg:bg-transparent lg:opacity-100 lg:visible`}>
                         <div className="mt-10 mb-8 gap-10 lg:hidden">
                             <Logo />
                         </div>

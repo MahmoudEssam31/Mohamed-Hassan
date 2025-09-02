@@ -10,7 +10,7 @@ import { HiOutlineMail } from "react-icons/hi";
 export default function NavBar() {
     const [isOpen, setIsOpen] = React.useState(false);
     return (
-        <div className="navbar-container  bg-[#003060] lg:py-[2rem] py-[1.2rem]">
+        <div className="navbar-container  bg-[#003060] lg:pb-[0rem] py-[1.2rem]">
             <CustomContainer className="relative">
                 <div className="navbar text-white flex justify-between items-center ">
                     <Logo />

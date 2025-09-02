@@ -11,7 +11,7 @@ export const skillsCards = [
         name: "Sawtooth",
         percentage: "Advanced",
         iconType: "image",
-        img:`${import.meta.env.BASE_URL}skillsIcon/sawtooth.png`,
+        img: `${import.meta.env.BASE_URL}skillsIcon/sawtooth.png`,
     },
     {
         id: 2,
@@ -48,38 +48,56 @@ export const skillsCards = [
     },
     {
         id: 4,
-        name: "Python",
-        percentage: "Intermediate",
-        iconType: "icon",
-        icon: <FaPython size={40} fill="#0775DE" />,
+        name: "VOXCO “For scripting”",
+        percentage: "Advanced",
+        iconType: "image",
+        // icon: <FaPython size={40} fill="#0775DE" />,
+        img: `${import.meta.env.BASE_URL}skillsIcon/voxco1.jpeg`,
     },
     {
         id: 5,
-        name: "SQL",
-        percentage: "Intermediate",
-        iconType: "icon",
-        icon: <TbSql size={40} />,
+        name: "Nfield “For scripting”",
+        percentage: "Advanced",
+        iconType: "image",
+        // icon: <FaPython size={40} fill="#0775DE" />,
+        img: `${import.meta.env.BASE_URL}skillsIcon/n.jpeg`,
     },
     {
         id: 6,
-        name: "JavaScript",
-        percentage: "Intermediate",
+        name: "Excel",
+        percentage: "Advanced",
         iconType: "icon",
-        icon: <IoLogoJavascript size={40} className="text-[#decc07]" />,
+        icon: <PiMicrosoftExcelLogoLight size={40} className="text-[#2fde07]" />,
     },
     {
         id: 7,
-        name: "Power BI & Excel",
+        name: "Power BI",
         percentage: "Advanced",
         iconType: "icon",
-        icon: (
-            <div className="iconss flex justify-center items-center gap-0">
-                <PiMicrosoftExcelLogoLight size={20} className="text-[#2fde07]" />
-                <PiMicrosoftPowerpointLogo size={20} className="text-[#de0707]" />
-            </div>
-            // <FaFilePowerpoint />
-        ),
+        icon: <PiMicrosoftPowerpointLogo size={40} className="text-[#de0707]" />,
     },
+
+    // {
+    //     id: 8,
+    //     name: "Python",
+    //     percentage: "Intermediate",
+    //     iconType: "icon",
+    //     icon: <FaPython size={40} fill="#0775DE" />,
+    // },
+    // {
+    //     id: 9,
+    //     name: "SQL",
+    //     percentage: "Intermediate",
+    //     iconType: "icon",
+    //     icon: <TbSql size={40} />,
+    // },
+    // {
+    //     id: 6,
+    //     name: "JavaScript",
+    //     percentage: "Intermediate",
+    //     iconType: "icon",
+    //     icon: <IoLogoJavascript size={40} className="text-[#decc07]" />,
+    // },
 ];
 
 export const servicesCards = [

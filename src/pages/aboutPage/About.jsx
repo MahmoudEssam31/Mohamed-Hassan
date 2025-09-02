@@ -9,7 +9,7 @@ import ServicesSection from './servicesSection/ServicesSection';
 export default function About() {
   return (
       <div>
-          <HeaderComponant title={"About Me"} img={" "} />
+          <HeaderComponant title={"About Me"} img={`${import.meta.env.BASE_URL}PersonlImg/imgo1.svg`} />
           <CustomContainer>
               <AboutMe />
               <ServicesSection />

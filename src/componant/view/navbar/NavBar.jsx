@@ -48,9 +48,12 @@ export default function NavBar() {
                         <a href="https://wa.me/201000651512?text=Hello%20I%20want%20to%20hire%20you" target="_blank" rel="noopener noreferrer">
                             <FaWhatsapp size={20} className="cursor-pointer duration-300 hover:text-[#25D366]" />
                         </a>
-                        <a href="mailto:Muhammed.hsn@outlook.com?subject=Hello%20Mohamed&body=I%20would%20like%20to%20contact%20you" target="_blank" rel="noopener noreferrer">
+                        <a
+                            href="mailto:Muhammed.hsn@outlook.com?subject=Hello%20Mohamed&body=I%20came%20across%20your%20portfolio%20and%20I’m%20interested%20in%20learning%20more%20about%20your%20data%20processing%20and%20analytics%20services.%20Could%20you%20please%20share%20more%20details?%20
+Best%20regards,%20[Your%20Name]"
+                            target="_blank"
+                            rel="noopener noreferrer">
                             <HiOutlineMail size={24} className="cursor-pointer duration-300 hover:text-[#1877F2]" />
-                            {/* <FaFacebook /> */}
                         </a>
                     </div>
                 </div>

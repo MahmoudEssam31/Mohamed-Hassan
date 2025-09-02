@@ -9,10 +9,7 @@ import SkillsCards from "../skillsCards/SkillsCards";
 
 export default function SkillsSectionContainer() {
     return (
-        <div className="skills-section mt-[7rem] relative flex justify-center  items-center ">
-            {/* <span className="swiper-button-prev  absolute left-10 top-1/2 -translate-y-1/2 text-3xl cursor-pointer z-10 text-blue-600">
-                <IoIosArrowBack />
-            </span> */}
+        <div className="skills-section mt-[7rem] relative md:px-[8rem] px-[4rem] ">
             <Swiper
                 className="px-12 pb-10"
                 modules={[Navigation, Pagination]}
@@ -26,10 +23,13 @@ export default function SkillsSectionContainer() {
                     prevEl: ".swiper-button-prev",
                 }}
                 breakpoints={{
-                    320: { slidesPerView: 1, spaceBetween: 10 },
-                    640: { slidesPerView: 3, spaceBetween: 15 },
-                    1024: { slidesPerView: 5, spaceBetween: 20 },
-                    1440: { slidesPerView: 6, spaceBetween: 25 },
+                    0: { slidesPerView: 1, spaceBetween: 10 }, 
+                    450: { slidesPerView: 1, spaceBetween: 12 }, 
+                    768: { slidesPerView: 3, spaceBetween: 15 }, 
+                    991: { slidesPerView: 4, spaceBetween: 15 }, 
+                    1200: { slidesPerView: 5, spaceBetween: 20 }, 
+                    1440: { slidesPerView: 5, spaceBetween: 20 }, 
+                    1700: { slidesPerView: 7, spaceBetween: 20 }, 
                 }}>
                 {skillsCards.map((item, index) => (
                     <SwiperSlide key={index}>
@@ -38,9 +38,7 @@ export default function SkillsSectionContainer() {
                 ))}
                 <div class="swiper-pagination"></div>
             </Swiper>
-            {/* <span className="swiper-button-next absolute right-10 top-1/2 -translate-y-1/2 text-3xl cursor-pointer z-10 text-blue-600">
-                <IoIosArrowForward />
-            </span> */}
+
             <div class="swiper-button-prev "></div>
             <div class="swiper-button-next"></div>
         </div>

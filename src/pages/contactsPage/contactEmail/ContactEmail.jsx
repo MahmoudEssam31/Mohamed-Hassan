@@ -14,7 +14,7 @@ export default function ContactEmail() {
                   <FieldWrapper name={"email"} label={"Email *"} type={"email"} placeholder={"E.g. john@doe"} />
                   <label htmlFor="message" className='block mb-2 text-sm font-medium text-gray-900'>{"Message *"}</label>
                   <Field className="!w-[60%] h-[12rem] bg-[var(--bg-form)] p-2 border "  as="textarea" id="message" name="message" placeholder="Enter your message" />
-                  <button className='w-[10rem] h-[4rem] bg-[var(--background-color)] text-[var(--main-color)] text-[1rem] font-[600] border border-[var(--bg-form)] flex justify-center items-center rounded-3xl my-[2rem] cursor-pointer' type='submit'>Send Message</button>
+                  <button className='w-[10rem] h-[4rem] bg-[var(--background-color)] text-[var(--main-color)] text-[1rem] font-[600] border border-[var(--bg-form)] flex justify-center items-center rounded-3xl my-[2rem] cursor-pointer hover:bg-[var(--yellow-color)] hover:text-[var(--background-color)] duration-300' type='submit'>Send Message</button>
               </Form>
           </Formik>
       </div>

@@ -4,23 +4,36 @@ import CustomContainer from "../../../componant/ui/customContainer/CustomContain
 export default function HeaderHomePage() {
     const experience = new Date().getFullYear() - 2015;
     const target = experience;
-    const pro = 399;
+
+    const pro = 3000;
+    
+    const clientsTarget = 15;
+    
     const [count, setCount] = React.useState(0);
-    // const [total, setTotal] = React.useState(0);
+    const [projectsDone, setprojectsDone] = React.useState(0);
+    const [clients, setClients] = React.useState(0);
     useEffect(() => {
         let timer
         if (count < target) {
         timer = setTimeout(() => setCount((prev) => prev + 1), 100), [];
         return () => clearInterval(timer);
         }                               
-    })
-    // useEffect(() => {
-    //     let projects
-    //     if (total < pro) {
-    //         (projects = setTimeout(() => setTotal((prev) => prev + 1), 1)), [];
-    //         return () => clearInterval(projects);
-    //     }
-    // })
+    }, [count, target]);
+  useEffect(() => {
+      const targetProjects = 3000;
+      if (projectsDone < pro) {
+          const t = setTimeout(() => setprojectsDone(projectsDone + 50), 10); 
+          return () => clearTimeout(t);
+      }
+  }, [projectsDone]);
+    useEffect(() => {
+        let clientsTimer
+        if (clients < clientsTarget) {
+        clientsTimer = setTimeout(() => setClients((prev) => prev + 1), 100), [];
+        return () => clearInterval(clientsTimer);
+        }
+    },[clients])
+
     return (
         <div className="header-componant relative bg-[url('/bg/bg3.jpeg')]  w-full 2xl:h-[100vh] xl:h-[100vh] lg:h-[120vh] md:h-[110vh] h-[210vh] bg-cover  bg-top  bg-no-repeat ">
             <div className="svg-background ">
@@ -59,11 +72,11 @@ export default function HeaderHomePage() {
                         </div>
                         <div className="Projects-done flex 2xl:ms-[6.5rem] xl:ms-[5.5rem] lg:ms-[4.5rem] md:ms-[4.5rem] flex-col md:items-end items-center">
                             <h3 className="text-[var(--grey-color)] 2xl:text-[2.5em] xl:text-[1.5em] lg:text-[1.2em] md:text-[1.2em] text-[1.1em] font-[600]">Projects done</h3>
-                            <span className="text-[var(--main-color)] 2xl:text-[5em] xl:text-[4.31em] lg:text-[3.3em] md:text-[2.8em] text-[2.4em] font-[600] font-['Staatliches']">3000+</span>
+                            <span className="text-[var(--main-color)] 2xl:text-[5em] xl:text-[4.31em] lg:text-[3.3em] md:text-[2.8em] text-[2.4em] font-[600] font-['Staatliches']">{projectsDone}</span>
                         </div>
                         <div className="clients flex flex-col md:items-end items-center 2xl:ms-[13.7rem] md:ms-[8.7rem]">
                             <h3 className="text-[var(--grey-color)] 2xl:text-[2.5em] xl:text-[1.5em] lg:text-[1.2em] md:text-[1.2em] text-[1.1em] font-[600] ">Clients</h3>
-                            <span className="text-[var(--main-color)] 2xl:text-[5.5em] xl:text-[4.31em] lg:text-[3.6em] md:text-[2.8em] text-[2.8em] font-[600] font-['Staatliches']">15+</span>
+                            <span className="text-[var(--main-color)] 2xl:text-[5.5em] xl:text-[4.31em] lg:text-[3.6em] md:text-[2.8em] text-[2.8em] font-[600] font-['Staatliches']">{clients}+</span>
                         </div>
                     </div>
                 </div>

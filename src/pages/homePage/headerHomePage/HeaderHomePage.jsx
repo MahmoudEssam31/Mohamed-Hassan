@@ -35,7 +35,7 @@ export default function HeaderHomePage() {
     },[clients])
 
     return (
-        <div className="header-componant relative bg-[url('/bg/bg3.jpeg')]  w-full 2xl:h-[100vh] xl:h-[100vh] lg:h-[120vh] md:h-[110vh] h-[210vh] bg-cover  bg-top  bg-no-repeat ">
+        <div className="header-componant relative bg-[url('/bg/bg3.jpeg')]  w-full 2xl:h-[100vh] xl:h-[100vh] lg:h-[120vh] md:h-[110vh] h-[210vh] bg-cover  bg-top bg-no-repeat">
             <div className="svg-background ">
                 <svg className="absolute bottom-0 xl:right-[1rem] lg:right-[0.7rem] md:right-[1.5rem] z-10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1700 430.7">
                     <path
@@ -62,7 +62,7 @@ export default function HeaderHomePage() {
                             </h4>
                         </div>
                     </div>
-                    <div className="header-container-img flex 2xl:w-[31.5rem] 2xl:h-[58rem]  xl:w-[23.5rem] xl:h-[39rem] lg:w-[20.5rem] lg:h-[33rem] md:w-[14rem] md:h-[24rem] w-[90%] h-[38.39rem] rounded-full justify-center items-center bg-amber-300 z-20 xl:me-[-2.5rem] lg:me-[-6.5rem] md:me-[-6rem] overflow-hidden">
+                    <div className="header-container-img flex 2xl:w-[29.5rem] 2xl:h-[56rem]  xl:w-[23.5rem] xl:h-[39rem] lg:w-[20.5rem] lg:h-[33rem] md:w-[14rem] md:h-[24rem] w-[90%] h-[38.39rem] rounded-full justify-center items-center bg-amber-300 z-20 xl:me-[-2.5rem] lg:me-[-6.5rem] md:me-[-6rem] overflow-hidden">
                         <img src={`${import.meta.env.BASE_URL}PersonlImg/img4.svg`} alt="" className="w-full 2xl:h-[50rem] lg:h-[30rem] h-[30rem] md:h-[23rem] object-cover relative top-18" />
                     </div>
                     <div className="header-container-experience  md:justify-center md:items-start justify-center items-center flex flex-col xl:gap-[1rem] md:gap-[1rem] gap-[.7rem]">
@@ -72,7 +72,7 @@ export default function HeaderHomePage() {
                         </div>
                         <div className="Projects-done flex 2xl:ms-[6.5rem] xl:ms-[5.5rem] lg:ms-[4.5rem] md:ms-[4.5rem] flex-col md:items-end items-center">
                             <h3 className="text-[var(--grey-color)] 2xl:text-[2.5em] xl:text-[1.5em] lg:text-[1.2em] md:text-[1.2em] text-[1.1em] font-[600]">Projects done</h3>
-                            <span className="text-[var(--main-color)] 2xl:text-[5em] xl:text-[4.31em] lg:text-[3.3em] md:text-[2.8em] text-[2.4em] font-[600] font-['Staatliches']">{projectsDone}</span>
+                            <span className="text-[var(--main-color)] 2xl:text-[5em] xl:text-[4.31em] lg:text-[3.3em] md:text-[2.8em] text-[2.4em] font-[600] font-['Staatliches']">{projectsDone}+</span>
                         </div>
                         <div className="clients flex flex-col md:items-end items-center 2xl:ms-[13.7rem] md:ms-[8.7rem]">
                             <h3 className="text-[var(--grey-color)] 2xl:text-[2.5em] xl:text-[1.5em] lg:text-[1.2em] md:text-[1.2em] text-[1.1em] font-[600] ">Clients</h3>

@@ -3,7 +3,7 @@ import CustomContainer from '../customContainer/CustomContainer'
 
 export default function HeaderComponant({ title, img }) {
     return (
-        <div className="header-componant relative bg-[url('/bg/bg2.jpeg')]  w-full xl:h-[62vh] lg:h-[51vh] md:h-[66.7vh] h-[105vh] bg-cover bg-center ">
+        <div className="header-componant relative bg-[url('/bg/bg3.jpeg')]  w-full 2xl:h-[72vh] xl:h-[62vh] lg:h-[51vh] md:h-[66.7vh] h-[105vh] bg-cover  bg-top  bg-no-repeat">
             <div className="svg-background ">
                 <svg className="absolute bottom-0  xl:right-[1rem] lg:right-[0.7rem] md:right-[1.5rem] z-10 " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1700 430.7">
                     <path
@@ -20,11 +20,10 @@ export default function HeaderComponant({ title, img }) {
                         <h2 className="xl:text-[6rem] lg:text-[6rem] text-[5rem] font-[500] font-['Staatliches'] uppercase text-[var(--main-color)] leading-[.9em]">{title}</h2>
                         <div className="left-svg  xl:w-[266px] lg:w-[266px] md:w-[200px] w-[11.69rem]">
                             <img className="w-[100%]" src="https://beverr.tempurl.host/wp-content/uploads/2022/07/decorative-line-1.svg" alt="" />
-                         
                         </div>
                     </div>
                     <div className="header-container-img flex xl:w-[21.28rem] xl:h-[21.28rem] lg:w-[21.28rem] lg:h-[21.25rem]  md:w-[16.87rem] md:h-[16.87rem] w-[18.39rem] h-[18.39rem] rounded-full justify-center items-center bg-amber-300 z-20 overflow-hidden">
-                        <img src={img} alt="" className='w-full h-full object-cover relative left-[-1rem] top-[1rem]' />
+                        <img src={img} alt="" className="w-full h-full object-cover relative left-[-1rem] top-[1rem]" />
                     </div>
                 </div>
             </CustomContainer>

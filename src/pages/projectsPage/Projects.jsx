@@ -10,7 +10,7 @@ export default function Projects({img,title,name,className }) {
     const projectsDataCard = projectsData;
   return (
       <div className="projects">
-          <HeaderComponant title={"Projects"} img={" "} />
+          <HeaderComponant title={"Projects"} img={`${import.meta.env.BASE_URL}PersonlImg/imgo1.svg`}  />
           <CustomContainer>
               <div className="projects-text xl:mt-[8rem] lg:mt-[6rem] mt-[6rem] flex flex-col gap-[.98rem]">
                   <h2 className="xl:text-[2.81rem] lg:text-[2.21rem] md:text-[2.2rem] text-[1.7rem] leading-[1.5em] font-[500] font-[Staatliches] uppercase ">Creative. Professional. Ethical.</h2>

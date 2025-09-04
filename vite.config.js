@@ -7,12 +7,3 @@ export default defineConfig({
     base: "/Mohamed-Hassan/",
 });
 
-// module.exports = {
-//   theme: {
-//     extend: {
-//       fontFamily: {
-//         staat: ['Staatliches', 'sans-serif'],
-//       },
-//     },
-//   },
-// }

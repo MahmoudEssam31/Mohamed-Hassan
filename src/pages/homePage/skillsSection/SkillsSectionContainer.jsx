@@ -25,7 +25,7 @@ export default function SkillsSectionContainer() {
                 breakpoints={{
                     0: { slidesPerView: 1, spaceBetween: 10 }, 
                     450: { slidesPerView: 1, spaceBetween: 12 }, 
-                    768: { slidesPerView: 3, spaceBetween: 15 }, 
+                    768: { slidesPerView: 2, spaceBetween: 15 }, 
                     991: { slidesPerView: 4, spaceBetween: 15 }, 
                     1200: { slidesPerView: 5, spaceBetween: 20 }, 
                     1440: { slidesPerView: 5, spaceBetween: 20 }, 
@@ -36,11 +36,11 @@ export default function SkillsSectionContainer() {
                         <SkillsCards title={item.name} percentage={item.percentage} icon={item.icon} iconType={item.iconType} img={item.img} />
                     </SwiperSlide>
                 ))}
-                <div class="swiper-pagination"></div>
+                <div className="swiper-pagination"></div>
             </Swiper>
 
-            <div class="swiper-button-prev "></div>
-            <div class="swiper-button-next"></div>
+            <div className="swiper-button-prev "></div>
+            <div className="swiper-button-next"></div>
         </div>
     );
 }

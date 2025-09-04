@@ -14,7 +14,7 @@ export default function ServicesSection() {
                       Vivamus eget aliquam dui. Integer eu arcu vel arcu suscipit ultrices quis non mauris. Aenean scelerisque, sem eu dictum commodo, velit nisi blandit magna, quis scelerisque ipsum
                       lectus ut libero.
                   </p>
-                  <div className="services-card-containe grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-[2rem]">
+                  <div className="services-card-containe grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-4  gap-[2rem]">
                       {cardData.map((item) => (
                           <ServicesCard key={item.id} id={item.id} idNum={item.idNum} name={item.name} description={item.description} icon={item.icon} bgg={item.bgg} />
                       ))}

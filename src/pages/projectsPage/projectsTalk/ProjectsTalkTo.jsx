@@ -17,7 +17,13 @@ export default function ProjectsTalkTo() {
               </a>
           </div>
           <div
-              className={`lets-talt-img xl:w-[39.25rem] xl:h-[39.25rem] lg:w-[31.25rem] lg:h-[31.25rem] md:w-[21.59rem] md:h-[21.59rem] w-[21.59rem] h-[21.59rem] bg-[var(--yellow-color)] rounded-[50%] relative lg:top-[-4.5rem] lg:left-[-1.5rem] md:top-[-2.1rem] md:left-[-.9rem] top-[3.5rem]  left-[.01rem] `}></div>
+              className={`lets-talt-img xl:w-[39.25rem] xl:h-[39.25rem] lg:w-[31.25rem] lg:h-[31.25rem] md:w-[21.59rem] md:h-[21.59rem] w-[21.59rem] h-[21.59rem] bg-[var(--yellow-color)] rounded-[50%] relative lg:top-[-4.5rem] lg:left-[-1.5rem] md:top-[-2.1rem] md:left-[-.9rem] top-[3.5rem]  left-[.01rem] overflow-hidden `}>
+              <img
+                  src={`${import.meta.env.BASE_URL}PersonlImg/img3.svg`}
+                  alt=""
+                  className="w-full 2xl:h-[35rem] xl:h-[30rem] lg:h-[25rem] md:h-[18rem] h-[18.5rem] object-contain relative xl:top-[9.5rem] lg:top-[6.5rem] md:top-[4.5rem] top-[3.5rem] "
+              />
+          </div>
       </div>
   );
 }

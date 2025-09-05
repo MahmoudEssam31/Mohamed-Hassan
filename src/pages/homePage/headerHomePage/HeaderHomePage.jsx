@@ -62,7 +62,7 @@ export default function HeaderHomePage() {
                             </h4>
                         </div>
                     </div>
-                    <div className="header-container-img flex 2xl:w-[27.5rem] 2xl:h-[54rem] xl:w-[23.5rem] xl:h-[39rem] lg:w-[20.5rem] lg:h-[33rem] md:w-[14rem] md:h-[24rem] w-[90%] h-[38.39rem] rounded-full justify-center items-center bg-amber-300 z-20 xl:me-[-2.5rem] lg:me-[-6.5rem] md:me-[-6rem] overflow-hidden">
+                    <div className="header-container-img flex  xl:w-[23.5rem] xl:h-[39rem] lg:w-[20.5rem] lg:h-[33rem] md:w-[14rem] md:h-[24rem] w-[90%] h-[38.39rem] rounded-full justify-center items-center bg-amber-300 z-20 xl:me-[-2.5rem] lg:me-[-6.5rem] md:me-[-6rem] overflow-hidden">
                         <img src={`${import.meta.env.BASE_URL}PersonlImg/img4.svg`} alt="" className="w-full 2xl:h-[50rem] lg:h-[30rem] h-[30rem] md:h-[23rem] object-cover relative top-18" />
                     </div>
                     <div className="header-container-experience  md:justify-center md:items-start justify-center items-center flex flex-col xl:gap-[1rem] md:gap-[1rem] gap-[.7rem]">

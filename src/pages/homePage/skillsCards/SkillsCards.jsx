@@ -5,8 +5,8 @@ import { PiMicrosoftExcelLogo } from 'react-icons/pi';
 
 export default function SkillsCards({title, percentage,icon, iconType, img}) {
     return (
-        <div className="skills_cards my-[3rem] grid md:grid-cols-3 grid-cols-1 justify-center items-center">
-            <div className="experience-cards-container flex justify-start items-center flex-col gap-[1rem] md:w-[12em]  h-[18em] border-[.09rem] border-[#E6F0EE] hover:border-[var(--background-color)] rounded-4xl hover:translate-y-[-1em] hover:bg-[var(--background-color)] hover:shadow-xl shadow-[#000000] duration-500 group">
+        <div className="skills_cards 2xl:my-[5rem] lg:my-[4rem] md:my-[3rem] my-[3rem] grid md:grid-cols-3 grid-cols-1 justify-center items-center">
+            <div className="experience-cards-container flex justify-start items-center flex-col gap-[1rem] md:w-[12em] h-[18em] border-[.09rem] border-[#E6F0EE] hover:border-[var(--background-color)] rounded-4xl hover:translate-y-[-1em] hover:bg-[var(--background-color)] hover:shadow-xl shadow-[#000000] duration-500 group">
                 <div className="card-icon flex justify-center items-center h-[3.8em] w-[3.8em] rounded-2xl mt-[3rem] overflow-hidden">
                     {" "}
                     {iconType === "icon" ? (

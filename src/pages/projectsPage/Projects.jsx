@@ -21,12 +21,7 @@ export default function Projects({img,title,name,className }) {
                           <li>Reputation for quality, commitment, and professionalism.</li>
                       </ul>
                   </div>
-                  {/* <p className="md:max-w-[63%] max-w-[100%] leading-[2em] text-[1rem] text-[var(--light-grey)]">
-                     Delivered 1500+ projects across Egypt, MENA region and others.
-Served 16+ freelance clients in the last 5 years.
-Reputation for quality, commitment, and professionalism.
-
-                  </p> */}
+                 
               </div>
               <div className={`projects-cards grid grid-cols-1 md:grid-cols-2 xl:gap-[2rem] lg:gap-[2.5rem] md:gap-[1.5rem] gap-[1.5rem]  lg:mt-[7rem] md:mt-[4rem] mt-[3rem]`}>
                   {projectsDataCard.map((item) => (

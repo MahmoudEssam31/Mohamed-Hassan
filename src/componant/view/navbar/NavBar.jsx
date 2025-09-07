@@ -27,7 +27,7 @@ export default function NavBar() {
                         </div>
                         <ul
                             className={` flex justify-center text-[#ffffffcc]  items-center 2xl:text-[1.4rem] xl:text-[1rem] lg:text-[1rem] md:text-[.95rem] font-[600] md:gap-[3rem] gap-[1rem] lg:flex-row md:flex-col flex-col lg:gap-[5rem]`}>
-                            <NavLink onClick={() => setIsOpen(false)} className={({ isActive }) => `hover:text-[#070101] duration-200 ${isActive ? "text-[#ffffff] not-hover:" : ""}`} to={"/"}>
+                            <NavLink onClick={() => setIsOpen(false)} className={({ isActive }) => `hover:text-[#ffffff] duration-200 ${isActive ? "text-[#ffffff] not-hover:" : ""}`} to={"/"}>
                                 Home
                             </NavLink>
                             <NavLink onClick={() => setIsOpen(false)} className={({ isActive }) => `hover:text-[#ffffff] duration-200 ${isActive ? "text-[#ffffff] not-hover:" : ""}`} to={"/about"}>

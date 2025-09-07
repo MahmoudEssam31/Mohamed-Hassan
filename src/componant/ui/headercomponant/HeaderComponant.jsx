@@ -23,8 +23,8 @@ export default function HeaderComponant({ title, img }) {
                             <img className="w-[100%]" src="https://beverr.tempurl.host/wp-content/uploads/2022/07/decorative-line-1.svg" alt="" />
                         </div>
                     </div>
-                    <div className="header-container-img flex relative  2xl:w-[18.28rem] 2xl:h-[23.28rem] xl:w-[15.28rem] xl:h-[20.28rem] lg:w-[15.28rem] lg:h-[20.25rem]  md:w-[16.87rem] md:h-[16.87rem] w-[14.39rem] h-[18.39rem] rounded-full justify-center items-center bg-amber-300 z-20 overflow-hidden">
-                        <GiSharkFin size={250} fill="var(--background-color)" className="lg:h-[19rem] md:h-[15rem] h-[14rem]" />
+                    <div className="header-container-img flex relative  2xl:w-[18.28rem] 2xl:h-[23.28rem] xl:w-[15.28rem] xl:h-[20.28rem] lg:w-[15.28rem] lg:h-[20.25rem]  md:w-[16.87rem] md:h-[16.87rem] w-[14.39rem] h-[20.39rem] rounded-full justify-center items-center bg-amber-300 z-20 overflow-hidden">
+                        <GiSharkFin size={250} fill="var(--background-color)" className="lg:h-[19rem] md:h-[15rem] h-[17rem]" />
                         {/* <GiSharkBite size={300} fill="var(--background-color)" /> */}
 
                         {/* <img src={img} alt="" className="w-full h-full object-cover relative left-[-1rem] top-[2rem]" /> */}

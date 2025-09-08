@@ -69,7 +69,7 @@ Best%20regards,%20[Your%20Name]"
                           <span className=" flex justify-center items-center text-[1.5rem] h-[3.5rem] w-[3.5rem] rounded-4xl text-[var(--main-color)] bg-[var(--background-color)]">
                               <HiOutlineMail className="group-hover:scale-110 group-hover:rotate-15 duration-300, group-hover:text-[var(--yellow-color)]" />
                           </span>
-                          <span className="hover:text-[var(--background-color)] duration-300 md:text-[1.5rem] text-[1rem]">Muhammed.hsn@outlook.com</span>
+                          <span className="hover:text-[var(--background-color)] duration-300 md:text-[1.5rem] text-[.8rem]">Muhammed.hsn@outlook.com</span>
                       </a>
                   </div>
               </div>

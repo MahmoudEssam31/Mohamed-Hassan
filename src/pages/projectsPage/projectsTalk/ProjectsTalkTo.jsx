@@ -19,7 +19,7 @@ export default function ProjectsTalkTo() {
               </a>
           </div>
           <div
-              data-aos="fade-up-left"
+              data-aos="fade-up-left" 
               className={`relative lets-talt-img xl:w-[25.25rem] 2xl:w-[35.25rem] 2xl:h-[35.25rem] lg:w-[25.25rem] lg:h-[25.25rem] md:w-[15.59rem] md:h-[15.59rem] w-[15.59rem] h-[15.59rem] bg-[var(--yellow-color)] rounded-[50%] lg:top-[-4.5rem] lg:left-[-1.5rem] md:top-[-2.1rem] md:left-[-.9rem] top-[3.5rem]  left-[.01rem] overflow-hidden `}>
               <GiSharkFin
                   size={250}

@@ -1,4 +1,5 @@
 import React from 'react'
+import { GiSharkFin } from 'react-icons/gi';
 
 export default function LetsTalk({ classNamecontainer, classNametext, classNameImg }) {
     return (
@@ -18,11 +19,11 @@ export default function LetsTalk({ classNamecontainer, classNametext, classNameI
             </div>
             <div
                 className={`lets-talt-img 2xl:w-[35.25rem] 2xl:h-[35.25rem] lg:w-[25.25rem] lg:h-[25.25rem] md:w-[15.59rem] md:h-[15.59rem] w-[15.59rem] h-[15.59rem] bg-[var(--yellow-color)] rounded-[50%] relative lg:top-[4.5rem] lg:left-[-1.5rem] md:top-[15.5rem] md:right-[-1.9rem] top-[3.5rem]  left-[.01rem] overflow-hidden ${classNameImg}`}>
-                <img
-                    src={`${import.meta.env.BASE_URL}PersonlImg/img3.svg`}
-                    alt=""
-                    className="w-full 2xl:h-[30rem] lg:h-[16rem] md:h-[10rem] h-[10rem] object-contain relative 2xl:top-[11.5rem] lg:top-[9.5rem] md:top-[6rem] top-[5.7rem]"
-                />
+                 <GiSharkFin
+                                  size={250}
+                                  fill="var(--background-color)"
+                                  className="absolute 2xl:h-[29rem] 2xl:w-[24rem] lg:h-[25rem] lg:w-[19rem] md:h-[15rem] md:w-[11rem] h-[17rem] w-[12.3rem] 2xl:bottom-[-1.5rem] 2xl:right-[6.4rem] lg:bottom-[-2rem] lg:right-[3.4rem] md:bottom-[-1.5rem] md:right-[2.6rem] bottom-[-1.5rem] right-[2.1rem]"
+                              />
             </div>
         </div>
     );

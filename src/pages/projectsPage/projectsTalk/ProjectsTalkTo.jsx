@@ -7,30 +7,25 @@ export default function ProjectsTalkTo() {
           className={`lets-talk flex md:flex-row flex-col justify-center items-center bg-[var(--service-color)] lg:h-[59.37rem] md:h-[39.37rem] h-[59.37rem] lg:-mx-[56px] md:-mx-[44px] -mx-[20px] md:mt-[7rem] mt-[3rem] overflow-x-hidden`}>
           <div
               data-aos="fade-up-right"
-              className={`lets-talt-text flex flex-col justify-center items-center xl:w-[39.25rem] xl:h-[39.25rem] lg:w-[31.25rem] lg:h-[31.25rem] md:w-[21.59rem] md:h-[21.59rem] w-[21.59rem] h-[21.59rem] bg-[var(--main-color)]  md:rounded-[50%] rounded-2xl relative lg:top-[-4.5rem] lg:left-[1.8rem] md:top-[-2.1rem] md:left-[.8rem] top-[rem] left-[.01rem] gap-[1.5rem]`}>
-              <p className="font-[600] text-[var(--background-color)] text-[.97rem]">Have a great idea?</p>
-              <h2 className="lg:text-[2.18rem] md:text-[2rem] text-[2.1rem] lg:leading-[2em] md:leading-[1.5em] leading-[1.8em] md:font-[400] font-[400] font-[Staatliches]  uppercase text-center md:w-[70%] w-[60%] ">
+              className={`lets-talt-text flex flex-col justify-center items-center 2xl:w-[44.25rem] 2xl:h-[44.25rem] xl:w-[39.25rem] xl:h-[39.25rem] lg:w-[31.25rem] lg:h-[31.25rem] md:w-[21.59rem] md:h-[21.59rem] w-[21.59rem] h-[21.59rem] bg-[var(--main-color)]  md:rounded-[50%] rounded-2xl relative lg:top-[-4.5rem] lg:left-[1.8rem] md:top-[-2.1rem] md:left-[.8rem] top-[rem] left-[.01rem] gap-[1.5rem]`}>
+              <p className="font-[600] text-[var(--background-color)] 2xl:text-[2.2rem] text-[.97rem]">Have a great idea?</p>
+              <h2 className="2xl:text-[3.3rem] lg:text-[2.18rem] md:text-[2rem] text-[2.1rem] lg:leading-[2em] md:leading-[1.5em] leading-[1.8em] md:font-[400] font-[400] font-[Staatliches]  uppercase text-center md:w-[70%] w-[60%] ">
                   Let’s talk about your project
               </h2>
               <a
                   href="https://wa.me/201000651512?text=Hello%20I%20want%20to%20hire%20you"
-                  className="btn bg-[var(--background-color)] text-[1rem] text-[var(--main-color)] lg:w-[12.5rem] lg:h-[4rem] md:w-[10.9rem] md:h-[3.2rem] w-[11.2rem] h-[3.5rem] rounded-2xl flex font-[600] justify-center items-center hover:bg-[var(--yellow-color)] duration-300 hover:text-[var(--background-color)]">
+                  className="btn bg-[var(--background-color)] 2xl:text-[1.8rem] text-[1rem] text-[var(--main-color)] 2xl:w-[15.5rem] 2xl:h-[5.5rem] lg:w-[12.5rem] lg:h-[4rem] md:w-[10.9rem] md:h-[3.2rem] w-[11.2rem] h-[3.5rem] rounded-2xl flex font-[600] justify-center items-center hover:bg-[var(--yellow-color)] duration-300 hover:text-[var(--background-color)]">
                   <span className="uppercase">Contact me</span>
               </a>
           </div>
           <div
-              data-aos="fade-up-left" 
-              className={`relative lets-talt-img xl:w-[25.25rem] 2xl:w-[35.25rem] 2xl:h-[35.25rem] lg:w-[25.25rem] lg:h-[25.25rem] md:w-[15.59rem] md:h-[15.59rem] w-[15.59rem] h-[15.59rem] bg-[var(--yellow-color)] rounded-[50%] lg:top-[-4.5rem] lg:left-[-1.5rem] md:top-[-2.1rem] md:left-[-.9rem] top-[3.5rem]  left-[.01rem] overflow-hidden `}>
+              data-aos="fade-up-left"
+              className={`relative lets-talt-img 2xl:w-[36.25rem] 2xl:h-[36.25rem] lg:w-[25.25rem] xl:w-[25.25rem] xl:h-[25.25rem] lg:h-[25.25rem] md:w-[15.59rem] md:h-[15.59rem] w-[15.59rem] h-[15.59rem] bg-[var(--yellow-color)] rounded-[50%] lg:top-[-4.5rem] lg:left-[-1.5rem] md:top-[-2.1rem] md:left-[-.9rem] top-[3.5rem]  left-[.01rem] overflow-hidden `}>
               <GiSharkFin
                   size={250}
                   fill="var(--background-color)"
-                  className="absolute 2xl:h-[29rem] 2xl:w-[24rem] lg:h-[25rem] lg:w-[19rem] md:h-[15rem] md:w-[11rem] h-[17rem] w-[12.2rem] 2xl:bottom-[-1.5rem] 2xl:right-[6.4rem] lg:bottom-[-2rem] lg:right-[3.4rem] md:bottom-[-1.5rem] md:right-[2.6rem] bottom-[-1.5rem] right-[2.rem]"
+                  className="absolute 2xl:h-[32.5rem] 2xl:w-[27rem] lg:h-[25rem] lg:w-[19rem] md:h-[15rem] md:w-[11rem] h-[17rem] w-[12.2rem] 2xl:bottom-[-1.5rem] 2xl:right-[6rem] lg:bottom-[-2rem] lg:right-[3.4rem] md:bottom-[-1.5rem] md:right-[2.6rem] bottom-[-1.5rem] right-[2.rem]"
               />
-              {/* <img
-                  src={`${import.meta.env.BASE_URL}PersonlImg/img3.svg`}
-                  alt=""
-                  className="w-full 2xl:h-[30rem] lg:h-[16rem] md:h-[10rem] h-[10rem] object-contain relative 2xl:top-[11.5rem] lg:top-[9.5rem] md:top-[6rem] top-[5.7rem]"
-              /> */}
           </div>
       </div>
   );

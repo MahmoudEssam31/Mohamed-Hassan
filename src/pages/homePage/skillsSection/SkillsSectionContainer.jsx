@@ -9,7 +9,7 @@ import SkillsCards from "../skillsCards/SkillsCards";
 
 export default function SkillsSectionContainer() {
     return (
-        <div className="skills-section xl:mt-[9rem] lg:mt-[8rem] mt-[7rem] relative md:px-[8rem] px-[4rem] ">
+        <div className="skills-section xl:mt-[9rem] lg:mt-[8rem] mt-[7rem] relative lg:px-[8rem] md:px-[5rem] px-[4rem] ">
             <Swiper
                 className="px-12 pb-10"
                 modules={[Navigation, Pagination]}
@@ -24,9 +24,10 @@ export default function SkillsSectionContainer() {
                 }}
                 breakpoints={{
                     0: { slidesPerView: 1, spaceBetween: 10 },
-                    450: { slidesPerView: 1, spaceBetween: 12 },
-                    768: { slidesPerView: 2, spaceBetween: 15 },
-                    991: { slidesPerView: 4, spaceBetween: 15 },
+                    500: { slidesPerView: 2, spaceBetween: 10 },
+                    550: { slidesPerView: 3, spaceBetween: 12 },
+                    768: { slidesPerView: 3, spaceBetween: 15 },
+                    991: { slidesPerView: 4, spaceBetween: 20 },
                     1200: { slidesPerView: 4, spaceBetween: 20 },
                     1440: { slidesPerView: 5, spaceBetween: 20 },
                     1700: { slidesPerView: 7, spaceBetween: 20 },

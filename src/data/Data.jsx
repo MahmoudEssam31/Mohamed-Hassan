@@ -223,7 +223,7 @@ export const experienceData = [
     },
     {
         id: 3,
-        company: "GfK - An NIQ Data Analyst - ME",
+        company: "GfK | NIQ",
         date: "1 yr",
     },
     {

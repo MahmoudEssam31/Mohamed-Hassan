@@ -35,7 +35,7 @@ export default function HeaderHomePage() {
     },[clients])
 
     return (
-        <div className="header-componant relative bg-[url('/bg/bg3.jpeg')]  w-full 2xl:h-[100vh] xl:h-[100vh] lg:h-[120vh] md:h-[110vh] h-[210vh] bg-cover  bg-top bg-no-repeat">
+        <div className="header-componant relative bg-[url('/bg/bg3.jpeg')]  w-full 2xl:h-[100vh] xl:h-[100vh] lg:h-[120vh] md:h-[130vh] sm:h-[170vh] h-[290vh] bg-cover  bg-top bg-no-repeat">
             <div className="svg-background ">
                 <svg className="absolute bottom-0 xl:right-[1rem] lg:right-[0.7rem] md:right-[1.5rem] z-10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1700 430.7">
                     <path
@@ -48,11 +48,11 @@ export default function HeaderHomePage() {
             </div>
             <CustomContainer>
                 <div className="header-HomePage flex md:flex-row flex-col xl:justify-between xl:items-start lg:justify-between lg:items-center md:justify-between md:items-center justify-center items-center relative 2xl:top-[13.5rem]  xl:top-[5.5rem] lg:top-[6.2rem] md:top-[4.2rem] top-[6.8rem] md:gap-0 gap-[3.7rem]">
-                    <div className="header-container-text md:justify-center  md:items-start justify-center items-center flex flex-col xl:gap-[1.5rem] md:gap-[1rem] gap-[1.3rem]  md:max-w-[19%] max-w-[50%]">
+                    <div className="header-container-text md:justify-center  md:items-start justify-center items-center flex flex-col 2xl:gap-[2.5rem] xl:gap-[1.5rem] md:gap-[1rem] gap-[1.3rem]  md:max-w-[19%] max-w-[50%]">
                         <div className="w-[120%]">
-                            <p className="2xl:text-[2.4rem] xl:text-[1.5rem] lg:text-[1.3rem] md:text-start text-center text-[1.2rem]  font-[500] text-[var(--main-color)]">Hey, my name is</p>
+                            <p className="2xl:text-[4rem] xl:text-[1.5rem] lg:text-[1.3rem] md:text-start text-center text-[1.2rem]  font-[500] text-[var(--main-color)]">Hey, my name is</p>
                         </div>
-                        <h2 className="2xl:text-[7.2rem] xl:text-[6.2rem] lg:text-[5.2rem] md:text-[3.5rem] text-[5.3rem] font-[500] font-['Staatliches'] uppercase text-[var(--main-color)] leading-[.96em]">{`Mohamed Hassan`}</h2>
+                        <h2 className="2xl:text-[9.8rem] xl:text-[6.2rem] lg:text-[5.2rem] md:text-[3.5rem] text-[5.3rem] font-[500] font-['Staatliches'] uppercase text-[var(--main-color)] leading-[.96em]">{`Mohamed Hassan`}</h2>
                         <div className="left-svg 2xl:w-[396px] xl:w-[266px] lg:w-[256px] md:w-[170px] w-[18.69rem]">
                             <img className="w-[100%]" src="https://beverr.tempurl.host/wp-content/uploads/2022/07/decorative-line-1.svg" alt="" />
                         </div>
@@ -62,22 +62,25 @@ export default function HeaderHomePage() {
                             </h4>
                         </div>
                     </div>
-                    <div className="header-container-img flex 2xl:w-[27.5rem] 2xl:h-[54rem] xl:w-[23.5rem] xl:h-[39rem] lg:w-[20.5rem] lg:h-[33rem] md:w-[14rem] md:h-[24rem] w-[90%] h-[38.39rem] rounded-full justify-center items-center bg-amber-300 z-20 xl:me-[-2.5rem] lg:me-[-6.5rem] md:me-[-6rem] overflow-hidden">
-                        <img src={`${import.meta.env.BASE_URL}PersonlImg/img4.svg`} alt="" className="w-full 2xl:h-[50rem] lg:h-[30rem] h-[30rem] md:h-[23rem] object-cover relative top-18" />
+                    <div
+                        className="header-container-img
+                     flex
+                       2xl:w-[30%] 2xl:h-[63rem] xl:w-[23.5rem] xl:h-[39rem] lg:w-[20.5rem] lg:h-[33rem] md:w-[14rem] md:h-[24rem] sm:w-[20rem] sm:h-[32rem] w-[90%] h-[38.39rem] rounded-full justify-center items-center bg-amber-300 z-20 2xl:me-[-10.5rem] xl:me-[-2.5rem] lg:me-[-6.5rem] md:me-[-6rem] overflow-hidden">
+                        <img src={`${import.meta.env.BASE_URL}PersonlImg/img4.svg`} alt="" className="w-full 2xl:h-[54rem] lg:h-[30rem] h-[30rem] md:h-[23rem] object-cover relative top-18" />
                     </div>
                     <div className="header-container-experience  md:justify-center md:items-start justify-center items-center flex flex-col xl:gap-[1rem] md:gap-[1rem] gap-[.7rem]">
-                        <div className="years-of-experience flex flex-col md:items-end items-center 2xl:ms-[-.1rem] xl:ms-[2rem] lg:ms-[1rem] md:ms-[1.5rem]">
-                            <h3 className="text-[var(--grey-color)] 2xl:text-[2.5em]  xl:text-[1.5em] lg:text-[1.2em] md:text-[1.2em]  text-[1.1em] font-[600]">Years of experience</h3>
+                        <div className="years-of-experience flex flex-col md:items-end items-center 2xl:ms-[-1rem] xl:ms-[2rem] lg:ms-[1rem] md:ms-[1.5rem]">
+                            <h3 className="text-[var(--grey-color)] 2xl:text-[2.9em]  xl:text-[1.5em] lg:text-[1.2em] md:text-[1.2em]  text-[1.1em] font-[600]">Years of experience</h3>
                             <span className="text-[var(--main-color)] 2xl:text-[5.5em] xl:text-[4.31em] lg:text-[3.6em] md:text-[2.8em] text-[2.8em] font-[600] font-['Staatliches']">{count}+</span>
                         </div>
                         <div className="Projects-done flex 2xl:ms-[6.5rem] xl:ms-[5.5rem] lg:ms-[4.5rem] md:ms-[4.5rem] flex-col md:items-end items-center">
-                            <h3 className="text-[var(--grey-color)] 2xl:text-[2.5em] xl:text-[1.5em] lg:text-[1.2em] md:text-[1.2em] text-[1.1em] font-[600]">Projects done</h3>
+                            <h3 className="text-[var(--grey-color)] 2xl:text-[2.9em] xl:text-[1.5em] lg:text-[1.2em] md:text-[1.2em] text-[1.1em] font-[600]">Projects done</h3>
                             <span className="text-[var(--main-color)] 2xl:text-[5em] xl:text-[3.7em] lg:text-[3.3em] md:text-[2.8em] text-[2.4em] font-[600] font-['Staatliches'] xl:ms-[1.5rem] md:ms-[1.6rem]">
                                 {projectsDone}+
                             </span>
                         </div>
-                        <div className="clients flex flex-col md:items-end items-center 2xl:ms-[13.7rem] xl:ms-[11rem] md:ms-[8.7rem]">
-                            <h3 className="text-[var(--grey-color)] 2xl:text-[2.5em] xl:text-[1.5em] lg:text-[1.2em] md:text-[1.2em] text-[1.1em] font-[600] ">Clients</h3>
+                        <div className="clients flex flex-col md:items-end items-center 2xl:ms-[15rem] xl:ms-[11rem] md:ms-[8.7rem]">
+                            <h3 className="text-[var(--grey-color)] 2xl:text-[2.9em] xl:text-[1.5em] lg:text-[1.2em] md:text-[1.2em] text-[1.1em] font-[600] ">Clients</h3>
                             <span className="text-[var(--main-color)] 2xl:text-[5.5em] xl:text-[4.31em] lg:text-[3.6em] md:text-[2.8em] text-[2.8em] font-[600] font-['Staatliches']">{clients}+</span>
                         </div>
                     </div>

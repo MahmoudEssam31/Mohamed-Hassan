@@ -2,11 +2,11 @@ import React from 'react'
 
 export default function AboutMe() {
   return (
-      <div className='aboutme flex flex-col gap-[.5rem] mt-[8rem]'>
-          <h2 className='text-[2.18rem]  leading-[1.5em] font-[600] uppercase '>Mohamed Hassan</h2>
-          <h4 className='text-[1.5rem] uppercase font-[500] text-gray-500 '>Data Processing & Analysis Expert</h4>
+      <div className="aboutme flex flex-col gap-[.5rem] mt-[8rem]">
+          <h2 className="2xl:text-[4rem] text-[2.18rem]  leading-[1.5em] font-[600] uppercase ">Mohamed Hassan</h2>
+          <h4 className="2xl:text-[2.8rem] text-[1.5rem] uppercase font-[500] text-gray-500 ">Data Processing & Analysis Expert</h4>
           <div className="aboutmeList">
-              <ul className="list-disc text-gray-500 ms-8 flex gap-2 flex-col">
+              <ul className="list-disc text-gray-500 ms-8 flex gap-2 flex-col 2xl:text-[2.7rem] text-[1rem]">
                   <li>Freelance & Employee Experience</li>
                   <li>17+ Years in Market Research</li>
                   <li>1500+ Projects</li>

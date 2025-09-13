@@ -35,7 +35,9 @@ export default function HeaderHomePage() {
     },[clients])
 
     return (
-        <div className="header-componant relative bg-[url('/bg/bg3.jpeg')]  w-full 2xl:h-[90%] xl:h-[100vh] lg:h-[120vh] md:h-[96vh] sm:h-[290vh] h-[275vh] bg-cover bg-top bg-no-repeat">
+        <div
+            className="header-componant relative bg-[url('/bg/bg3.jpeg')]  w-full 2xl:h-[90%] xl:h-[100vh] lg:h-[120vh] md:h-[96vh] sm:h-[290vh] h-[280dvh]
+      bg-cover bg-top bg-no-repeat">
             <div className="svg-background flex ">
                 <svg className="absolute bottom-0 2xl:right-[8rem] xl:right-[1rem] lg:right-[0.7rem] md:right-[1.5rem] z-10 2xl:h-[80%]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1700 430.7">
                     <path
@@ -47,7 +49,7 @@ export default function HeaderHomePage() {
                 </svg>
             </div>
             <CustomContainer>
-                <div className="header-HomePage flex md:flex-row flex-col xl:justify-between xl:items-start lg:justify-between lg:items-center md:justify-between md:items-center justify-center items-center relative xl:top-[5.5rem] lg:top-[6.2rem] md:top-[2.4rem] sm:top-[6.8rem] top-[5.5rem] md:gap-0 sm:gap-[2rem] gap-[3rem]">
+                <div className="header-HomePage flex md:flex-row flex-col xl:justify-between xl:items-start lg:justify-between lg:items-center md:justify-between items-center justify-center relative xl:top-[5.5rem] lg:top-[6.2rem] md:top-[2.4rem] sm:top-[6.8rem] top-[5.5rem] md:gap-0 sm:gap-[2rem] gap-[3rem] ">
                     <div className="header-container-text md:justify-center  md:items-start justify-center items-center flex flex-col xl:gap-[1.5rem] md:gap-[1rem] sm:gap-[1rem] gap-[1rem] md:max-w-[19%] max-w-[50%]">
                         <div className="w-[120%]">
                             <p className="md:text-start text-center text-[1.2rem] font-[500] text-[var(--main-color)]">Hey, my name is</p>

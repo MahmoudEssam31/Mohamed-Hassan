@@ -4,7 +4,7 @@ import { GiSharkFin } from 'react-icons/gi';
 export default function LetsTalk({ classNamecontainer, classNametext, classNameImg }) {
     return (
         <div
-            className={`lets-talk flex md:flex-row flex-col justify-center items-center bg-[var(--service-color)] h-[59.37rem] lg:-mx-[56px] md:-mx-[44px] -mx-[20px] md:mt-[7rem] mt-[3rem] ${classNamecontainer}`}>
+            className={`lets-talk flex md:flex-row flex-col justify-center items-center bg-[var(--service-color)] h-[59.37rem] lg:-mx-[56px] md:-mx-[44px] -mx-[20px] md:mt-[7rem] mt-[3rem] overflow-x-hidden ${classNamecontainer}`}>
             <div
                 data-aos="fade-up-right"
                 className={`lets-talt-text flex flex-col justify-center items-center lg:w-[31.25rem] lg:h-[31.25rem] md:w-[21.59rem] md:h-[21.59rem] w-[21.59rem] h-[21.59rem] bg-[var(--main-color)]  md:rounded-[50%] rounded-2xl relative lg:top-[-4.5rem] lg:left-[1.8rem] md:top-[6.1rem] md:left-[4.8rem] top-[rem] left-[.01rem] gap-[1.5rem] ${classNametext}`}>

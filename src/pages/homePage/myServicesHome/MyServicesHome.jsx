@@ -18,7 +18,7 @@ export default function MyServicesHomPage() {
                     </span>
                 </div> */}
             </div>
-            <div className="services-card-containe  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-4 gap-[3rem] 2xlgap-[1rem] ">
+            <div className="services-card-containe grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-[3rem] 2xlgap-[1rem] ">
                 {cardData.map((item) => (
                     <ServicesCard key={item.id} id={item.id} idNum={item.idNum} name={item.name} description={item.description} icon={item.icon} bgg={item.bgg} />
                 ))}

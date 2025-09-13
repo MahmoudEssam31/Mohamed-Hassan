@@ -30,7 +30,6 @@ export default function SkillsSectionContainer() {
                     991: { slidesPerView: 4, spaceBetween: 20 },
                     1200: { slidesPerView: 4, spaceBetween: 20 },
                     1440: { slidesPerView: 5, spaceBetween: 20 },
-                    1700: { slidesPerView: 7, spaceBetween: 20 },
                 }}>
                 {skillsCards.map((item, index) => (
                     <SwiperSlide key={index}>
@@ -40,8 +39,8 @@ export default function SkillsSectionContainer() {
                 <div className="swiper-pagination"></div>
             </Swiper>
 
-            <div className="swiper-button-prev "></div>
-            <div className="swiper-button-next"></div>
+            <div className="swiper-button-prev md:after:!text-[2.8rem] after:!text-[2.2rem]"></div>
+            <div className="swiper-button-next md:after:!text-[2.8rem] after:!text-[2.2rem]"></div>
         </div>
     );
 }

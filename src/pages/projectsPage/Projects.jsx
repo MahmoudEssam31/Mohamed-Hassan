@@ -13,21 +13,20 @@ export default function Projects({img,title,name }) {
           <HeaderComponant title={"Projects"} img={`${import.meta.env.BASE_URL}PersonlImg/imgo1.svg`} />
           <CustomContainer>
               <div className="projects-text xl:mt-[8rem] lg:mt-[6rem] mt-[6rem] flex flex-col gap-[.98rem]">
-                  <h2 className="2xl:text-[4.5rem]  xl:text-[2.81rem] lg:text-[2.21rem] md:text-[2.2rem] text-[1.7rem] leading-[1.5em] font-[500] font-[Staatliches] uppercase ">
+                  <h2 className="xl:text-[2.81rem] lg:text-[2.21rem] md:text-[2.2rem] text-[1.7rem] leading-[1.5em] font-[500] font-[Staatliches] uppercase">
                       Creative. Professional. Ethical.
                   </h2>
                   <div className="projects-List">
-                      <ul className="list-disc text-gray-500 ms-8 flex gap-2 flex-col 2xl:text-[2.5rem] text-[1.1rem]">
+                      <ul className="list-disc text-gray-500 ms-8 flex gap-2 flex-col text-[1.1rem]">
                           <li>Delivered 1500+ projects across Egypt, MENA region and others.</li>
                           <li>Served 16+ freelance clients in the last 5 years.</li>
                           <li>Reputation for quality, commitment, and professionalism.</li>
                       </ul>
                   </div>
               </div>
-              <div
-                  className={`projects-cards grid grid-cols-1 md:grid-cols-2   xl:gap-[2rem] lg:gap-[2.5rem] md:gap-[1.5rem] gap-[1.5rem]  lg:mt-[7rem] md:mt-[4rem] mt-[3rem] 2xl:flex 2xl:flex-wrap 2xl:gap-[2rem]`}>
+              <div className={`projects-cards grid grid-cols-1 md:grid-cols-2 xl:gap-[2rem] lg:gap-[2.5rem] md:gap-[1.5rem] gap-[1.5rem] lg:mt-[7rem] md:mt-[4rem] mt-[3rem]`}>
                   {projectsDataCard.map((item) => (
-                      <MyLastesProCard key={item.id} id={item.id} img={item.img} title={item.title} name={item.name} className=" !2xl:w-[1.65rem] !2xl:h-[4.5rem]" imgClass="h-[100%]" />
+                      <MyLastesProCard key={item.id} id={item.id} img={item.img} title={item.title} name={item.name} className="" imgClass="h-[100%]" />
                   ))}
               </div>
               <div className="project-letsTalk">

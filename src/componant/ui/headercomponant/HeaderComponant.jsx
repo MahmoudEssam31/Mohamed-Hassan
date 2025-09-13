@@ -4,7 +4,7 @@ import { GiSharkBite, GiSharkFin } from 'react-icons/gi';
 
 export default function HeaderComponant({ title, img }) {
     return (
-        <div className="header-componant relative bg-[url('/bg/bg3.jpeg')]  w-full 2xl:h-[60vh] xl:h-[62vh] lg:h-[51vh] md:h-[80.7vh] sm:h-[160.7vh] h-[95vh] bg-cover  bg-top  bg-no-repeat">
+        <div className="header-componant relative bg-[url('/bg/bg3.jpeg')]  w-full 2xl:h-[60vh] xl:h-[62vh] lg:h-[51vh] md:h-[80.7vh] sm:h-[113.7vh] h-[113.7vh] bg-cover  bg-top  bg-no-repeat">
             <div className="svg-background ">
                 <svg className="absolute bottom-0 xl:right-[1rem] lg:right-[0.7rem] md:right-[1.5rem] z-10 " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1700 430.7">
                     <path
@@ -16,18 +16,15 @@ export default function HeaderComponant({ title, img }) {
                 </svg>
             </div>
             <CustomContainer>
-                <div className="header-componant-container flex md:flex-row flex-col md:justify-between md:items-start justify-center items-center relative 2xl:top-[10.5rem] xl:top-[5.5rem] lg:top-[6.2rem] md:top-[6.5rem] top-[6.8rem] md:gap-0 gap-[3.7rem]">
+                <div className="header-componant-container flex md:flex-row flex-col md:justify-between md:items-start justify-center items-center relative xl:top-[5.5rem] lg:top-[6.2rem] md:top-[6.5rem] top-[6.8rem] md:gap-0 gap-[3.7rem] ">
                     <div className="header-container-text md:justify-center md:items-start justify-center items-center flex flex-col xl:gap-[1rem] md:gap-[1rem] gap-[1.3rem]">
-                        <h2 className="2xl:text-[10rem]  xl:text-[6rem] lg:text-[6rem] text-[5rem] font-[500] font-['Staatliches'] uppercase text-[var(--main-color)] leading-[.9em]">{title}</h2>
-                        <div className="left-svg 2xl:w-[27.62rem]  xl:w-[16.62rem] lg:w-[16.62rem] md:w-[12.5rem] w-[11.69rem]">
+                        <h2 className="xl:text-[6rem] lg:text-[6rem] text-[5rem] font-[500] font-['Staatliches'] uppercase text-[var(--main-color)] leading-[.9em]">{title}</h2>
+                        <div className="left-svg xl:w-[16.62rem] lg:w-[16.62rem] md:w-[12.5rem] w-[11.69rem]">
                             <img className="w-[100%]" src="https://beverr.tempurl.host/wp-content/uploads/2022/07/decorative-line-1.svg" alt="" />
                         </div>
                     </div>
-                    <div className="header-container-img flex relative  2xl:w-[25.28rem] 2xl:h-[37.28rem] xl:w-[15.28rem] xl:h-[20.28rem] lg:w-[15.28rem] lg:h-[20.25rem]  md:w-[14.87rem] md:h-[20.87rem] w-[14.39rem] h-[20.39rem] rounded-full justify-center items-center bg-amber-300 z-20 overflow-hidden">
-                        <GiSharkFin size={250} fill="var(--background-color)" className="2xl:h-[32rem] 2xl:w-[32rem] lg:h-[19rem] md:h-[20rem] h-[17rem]" />
-                        {/* <GiSharkBite size={300} fill="var(--background-color)" /> */}
-
-                        {/* <img src={img} alt="" className="w-full h-full object-cover relative left-[-1rem] top-[2rem]" /> */}
+                    <div className="header-container-img flex relative xl:w-[15.28rem] xl:h-[20.28rem] lg:w-[15.28rem] lg:h-[20.25rem]  md:w-[14.87rem] md:h-[20.87rem] w-[14.39rem] h-[20.39rem] rounded-full justify-center items-center bg-amber-300 z-20 overflow-hidden">
+                        <GiSharkFin size={250} fill="var(--background-color)" className="lg:h-[19rem] md:h-[20rem] h-[17rem]" />
                     </div>
                 </div>
             </CustomContainer>

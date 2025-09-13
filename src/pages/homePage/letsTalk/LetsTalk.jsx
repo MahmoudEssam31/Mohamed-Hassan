@@ -4,25 +4,25 @@ import { GiSharkFin } from 'react-icons/gi';
 export default function LetsTalk({ classNamecontainer, classNametext, classNameImg }) {
     return (
         <div
-            className={`lets-talk flex md:flex-row flex-col justify-center items-center bg-[var(--service-color)] h-[59.37rem] 2xl:-mx-[136px]  lg:-mx-[56px] md:-mx-[44px] -mx-[20px] md:mt-[7rem] mt-[3rem] ${classNamecontainer}`}>
+            className={`lets-talk flex md:flex-row flex-col justify-center items-center bg-[var(--service-color)] h-[59.37rem] lg:-mx-[56px] md:-mx-[44px] -mx-[20px] md:mt-[7rem] mt-[3rem] ${classNamecontainer}`}>
             <div
-                className={`lets-talt-text flex flex-col justify-center items-center 2xl:w-[41.25rem] 2xl:h-[41.25rem] lg:w-[31.25rem] lg:h-[31.25rem] md:w-[21.59rem] md:h-[21.59rem] w-[21.59rem] h-[21.59rem] bg-[var(--main-color)]  md:rounded-[50%] rounded-2xl relative lg:top-[-4.5rem] lg:left-[1.8rem] md:top-[6.1rem] md:left-[4.8rem] top-[rem] left-[.01rem] gap-[1.5rem] ${classNametext}`}>
-                <p className="font-[600] text-[var(--background-color)] 2xl:text-[1.5rem] text-[.97rem]">Have a great idea?</p>
-                <h2 className="2xl:text-[2.6rem] lg:text-[2.18rem] md:text-[2rem] text-[2.1rem] lg:leading-[2em] md:leading-[1.5em] leading-[1.8em] md:font-[400] font-[400] font-[Staatliches]  uppercase text-center md:w-[70%] w-[60%] ">
+                className={`lets-talt-text flex flex-col justify-center items-center lg:w-[31.25rem] lg:h-[31.25rem] md:w-[21.59rem] md:h-[21.59rem] w-[21.59rem] h-[21.59rem] bg-[var(--main-color)]  md:rounded-[50%] rounded-2xl relative lg:top-[-4.5rem] lg:left-[1.8rem] md:top-[6.1rem] md:left-[4.8rem] top-[rem] left-[.01rem] gap-[1.5rem] ${classNametext}`}>
+                <p className="font-[600] text-[var(--background-color)] text-[.97rem]">Have a great idea?</p>
+                <h2 className="lg:text-[2.18rem] md:text-[2rem] text-[2.1rem] lg:leading-[2em] md:leading-[1.5em] leading-[1.8em] md:font-[400] font-[400] font-[Staatliches] uppercase text-center md:w-[70%] w-[60%] ">
                     Let’s talk about your project
                 </h2>
                 <a
                     href="https://wa.me/201000651512?text=Hello%20I%20want%20to%20hire%20you"
-                    className="btn bg-[var(--background-color)] 2xl:text-[1.3rem] text-[1rem] text-[var(--main-color)] 2xl:w-[14.5rem] 2xl:h-[5.5rem] lg:w-[12.5rem] lg:h-[4rem] md:w-[10.9rem] md:h-[3.2rem] w-[11.2rem] h-[3.5rem] rounded-2xl flex font-[600] justify-center items-center hover:bg-[var(--yellow-color)] duration-300 hover:text-[var(--background-color)]">
+                    className="btn bg-[var(--background-color)] text-[1rem] text-[var(--main-color)] lg:w-[12.5rem] lg:h-[4rem] md:w-[10.9rem] md:h-[3.2rem] w-[11.2rem] h-[3.5rem] rounded-2xl flex font-[600] justify-center items-center hover:bg-[var(--yellow-color)] duration-300 hover:text-[var(--background-color)]">
                     <span className="uppercase">Contact me</span>
                 </a>
             </div>
             <div
-                className={`lets-talt-img 2xl:w-[35.25rem] 2xl:h-[35.25rem] lg:w-[25.25rem] lg:h-[25.25rem] md:w-[15.59rem] md:h-[15.59rem] w-[15.59rem] h-[15.59rem] bg-[var(--yellow-color)] rounded-[50%] relative lg:top-[4.5rem] lg:left-[-1.5rem] md:top-[15.5rem] md:right-[-1.9rem] top-[3.5rem]  left-[.01rem] overflow-hidden ${classNameImg}`}>
+                className={`lets-talt-img lg:w-[25.25rem] lg:h-[25.25rem] md:w-[15.59rem] md:h-[15.59rem] w-[15.59rem] h-[15.59rem] bg-[var(--yellow-color)] rounded-[50%] relative lg:top-[4.5rem] lg:left-[-1.5rem] md:top-[15.5rem] md:right-[-1.9rem] top-[3.5rem]  left-[.01rem] overflow-hidden ${classNameImg}`}>
                  <GiSharkFin
                                   size={250}
                                   fill="var(--background-color)"
-                                  className="absolute 2xl:h-[29rem] 2xl:w-[24rem] lg:h-[25rem] lg:w-[19rem] md:h-[15rem] md:w-[11rem] h-[17rem] w-[12.3rem] 2xl:bottom-[-1.5rem] 2xl:right-[6.4rem] lg:bottom-[-2rem] lg:right-[3.4rem] md:bottom-[-1.5rem] md:right-[2.6rem] bottom-[-1.5rem] right-[2.1rem]"
+                                  className="absolute lg:h-[25rem] lg:w-[19rem] md:h-[15rem] md:w-[11rem] h-[17rem] w-[12.3rem] lg:bottom-[-2rem] lg:right-[3.4rem] md:bottom-[-1.5rem] md:right-[2.6rem] bottom-[-1.5rem] right-[2.1rem]"
                               />
             </div>
         </div>

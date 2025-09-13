@@ -114,7 +114,7 @@ export const servicesCards = [
             </svg>
         ),
         bgg: (
-            <svg className="absolute bottom-0 xl:left-[-11rem]  h-[25rem] z-10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1700 430.7">
+            <svg className="absolute bottom-0 md:left-[-11rem] left-[-34rem] h-[25rem] z-10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1700 430.7">
                 <path
                     fill="currentColor"
                     height="34.672"
@@ -137,7 +137,7 @@ export const servicesCards = [
             </svg>
         ),
         bgg: (
-            <svg className="absolute bottom-0 xl:left-[-34rem]  h-[25rem] z-10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1700 430.7">
+            <svg className="absolute bottom-0 md:left-[-34rem] left-[-34rem] h-[25rem] z-10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1700 430.7">
                 <path
                     fill="currentColor"
                     height="34.672"
@@ -155,7 +155,7 @@ export const servicesCards = [
         icon: <SiSimpleanalytics size={60} />,
 
         bgg: (
-            <svg className="absolute bottom-0 xl:left-[-57rem]  h-[25rem] z-10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1700 430.7">
+            <svg className="absolute bottom-0 lg:left-[-57rem] md:left-[-21rem] left-[-34rem] h-[25rem] z-10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1700 430.7">
                 <path
                     fill="currentColor"
                     height="34.672"
@@ -173,7 +173,7 @@ export const servicesCards = [
         // description: "lorem8effffffffff rferwferfwf",
         icon: <TbReportAnalytics size={100} />,
         bgg: (
-            <svg className="absolute bottom-0 xl:left-[-11rem]  h-[25rem] z-10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1700 430.7">
+            <svg className="absolute bottom-0 lg:left-[-11rem] md:left-[-45rem] left-[-34rem] h-[25rem] z-10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1700 430.7">
                 <path
                     fill="currentColor"
                     height="34.672"
@@ -197,7 +197,7 @@ export const servicesCards = [
             </svg>
         ),
         bgg: (
-            <svg className="absolute bottom-0 xl:left-[-34rem]  h-[25rem] z-10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1700 430.7">
+            <svg className="absolute bottom-0 lg:left-[-34rem] md:left-[-34rem] left-[-34rem] h-[25rem] z-10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1700 430.7">
                 <path
                     fill="currentColor"
                     height="34.672"

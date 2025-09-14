@@ -9,7 +9,7 @@ import SkillsCards from "../skillsCards/SkillsCards";
 
 export default function SkillsSectionContainer() {
     return (
-        <div className="skills-section xl:mt-[9rem] lg:mt-[8rem] mt-[7rem] relative lg:px-[8rem] md:px-[5rem] px-[4rem] ">
+        <div className="skills-section xl:mt-[10rem] lg:mt-[6rem] md:mt-[8rem] sm:mt-[2rem] mt-[5rem] relative lg:px-[8rem] md:px-[5rem] px-[4rem] ">
             <Swiper
                 className="px-12 pb-10"
                 modules={[Navigation, Pagination]}

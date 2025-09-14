@@ -4,7 +4,7 @@ import { GiSharkBite, GiSharkFin } from 'react-icons/gi';
 
 export default function HeaderComponant({ title, img }) {
     return (
-        <div className="header-componant relative bg-[url('/bg/bg3.jpeg')]  w-full 2xl:h-[35vh] xl:h-[62vh] lg:h-[51vh] md:h-[80.7vh] sm:h-[113.7vh] h-[113.7vh] bg-cover bg-top bg-no-repeat">
+        <div className="header-componant relative bg-[url('/bg/bg3.jpeg')]  w-full 2xl:h-[28vh] xl:h-[62vh] lg:h-[51vh] md:h-[80.7vh] sm:h-[113.7vh] h-[113.7vh] bg-cover bg-top bg-no-repeat">
             <div className="svg-background ">
                 <svg className="absolute bottom-0 xl:right-[1rem] lg:right-[0.7rem] md:right-[1.5rem] z-10 " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1700 430.7">
                     <path

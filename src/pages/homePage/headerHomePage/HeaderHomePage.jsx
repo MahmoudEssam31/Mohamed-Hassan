@@ -36,9 +36,9 @@ export default function HeaderHomePage() {
 
     return (
         <div
-            className="header-componant relative bg-[url('/bg/bg3.jpeg')]  w-full 2xl:h-[90%] xl:h-[100vh] lg:h-[120vh] md:h-[96vh] sm:h-[310vh] h-[97rem]
+            className="header-componant relative bg-[url('/bg/bg3.jpeg')]  w-full 2xl:h-[90%] xl:h-[100vh] lg:h-[120vh] md:h-[96vh] sm:h-[270vh] h-[97rem]
       bg-cover bg-top bg-no-repeat">
-            <div className="svg-background flex ">
+            <div className="svg-background flex">
                 <svg className="absolute bottom-0 2xl:right-[8rem] xl:right-[1rem] lg:right-[0.7rem] md:right-[1.5rem] z-10 2xl:h-[80%]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1700 430.7">
                     <path
                         fill="#3a8881"

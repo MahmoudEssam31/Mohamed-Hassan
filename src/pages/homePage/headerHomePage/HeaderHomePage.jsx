@@ -54,7 +54,7 @@ export default function HeaderHomePage() {
                         <div className="w-[120%]">
                             <p className="md:text-start text-center text-[1.2rem] font-[500] text-[var(--main-color)]">Hey, my name is</p>
                         </div>
-                        <h2 className="xl:text-[6.2rem] lg:text-[5.2rem] md:text-[3.5rem] text-[5.3rem] font-[500] font-['Staatliches'] uppercase text-[var(--main-color)] leading-[.96em]">{`Mohamed Hassan`}</h2>
+                        <h1 className="xl:text-[6.2rem] lg:text-[5.2rem] md:text-[3.5rem] text-[5.3rem] font-[500] font-['Staatliches'] uppercase text-[var(--main-color)] leading-[.96em]">{`Mohamed Hassan`}</h1>
                         <div className="left-svg xl:w-[266px] lg:w-[256px] md:w-[170px] w-[18.69rem]">
                             <img className="w-[100%]" src="https://beverr.tempurl.host/wp-content/uploads/2022/07/decorative-line-1.svg" alt="" />
                         </div>

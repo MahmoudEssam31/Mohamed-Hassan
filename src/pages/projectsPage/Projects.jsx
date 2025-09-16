@@ -24,7 +24,15 @@ export default function Projects({img,title,name }) {
               </div>
               <div className={`projects-cards grid grid-cols-1 md:grid-cols-2 xl:gap-[2rem] lg:gap-[2.5rem] md:gap-[1.5rem] gap-[1.5rem] 2xl:mt-[2.5rem] lg:mt-[7rem] md:mt-[4rem] mt-[3rem]`}>
                   {projectsDataCard.map((item) => (
-                      <MyLastesProCard key={item.id} id={item.id} img={item.img} title={item.title} name={item.name} className="" imgClass="h-[100%]" />
+                      <MyLastesProCard
+                          key={item.id}
+                          id={item.id}
+                          img={item.img}
+                          title={item.title}
+                          name={item.name}
+                          className="xl:!w-[100%] lg:!w-[105%] md:!w-[105%] !w-[100%] xl:!h-[37rem] lg:!h-[33rem] md:!h-[28rem]"
+                          imgClass="h-[100%]"
+                      />
                   ))}
               </div>
               <div className="project-letsTalk">

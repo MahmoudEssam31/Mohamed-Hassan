@@ -3,13 +3,37 @@ import React from "react";
 // import { Form } from 'react-router-dom';
 import FieldWrapper from "../../../componant/common/fieldWrapper/FieldWrapper";
 import { validationSchema } from "../../../validation/Vakidation";
+import emailjs from "emailjs-com";
+
 
 export default function ContactEmail() {
     return (
         <div className="contact-email mt-[6em] lg:w-[80%] md:w-full w-full flex flex-col gap-[1.5rem]">
             <h2 className="text-[2.18rem] line-hight-[1.5em] font-[600]">Let’s talk about your project</h2>
             {/* <p className="w-[60%]">Integer ac interdum lacus. Nunc porta semper lacus a varius pellentesque habitant morbi tristique senectus et netus.</p> */}
-            <Formik validationSchema={validationSchema} initialValues={{ name: "", email: "", message: "" }} onSubmit={(values) => console.log(values)}>
+            <Formik
+                validationSchema={validationSchema}
+                initialValues={{ name: "", email: "", message: "" }}
+                onSubmit={(values, { resetForm }) => {
+                    emailjs
+                        .send(
+                            "YOUR_SERVICE_ID", // Service ID
+                            "YOUR_TEMPLATE_ID", // Template ID
+                            values, // القيم اللى جاية من الفورم
+                            "YOUR_PUBLIC_KEY", // Public key
+                        )
+                        .then(
+                            (result) => {
+                                console.log(result.text);
+                                alert("Message sent successfully!");
+                                resetForm();
+                            },
+                            (error) => {
+                                console.log(error.text);
+                                alert("Message failed to send.");
+                            },
+                        );
+                }}>
                 <Form>
                     <FieldWrapper name={"name"} label={"First Name *"} type={"name"} placeholder={"E.g. John"} />
                     <FieldWrapper name={"email"} label={"Email *"} type={"email"} placeholder={"E.g. john@doe"} />

@@ -16,6 +16,11 @@
     --service-color:#f2f7f6;
     --bblue-color:#0056a64f;
 }
+/* * {
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;    
+} */
 
 body {
     overflow-x: hidden;

@@ -65,9 +65,9 @@ export default function Contacts() {
                       <a
                           href="mailto:Muhammed.hsn@outlook.com?subject=Hello%20Mohamed&%0Abody=I%20came%20across%20your%20portfolio%20and%20I’m%20interested%20in%20learning%20more%20about%20your%20data%20processing%20and%20analytics%20services.%0A%20Could%20you%20please%20share%20more%20details?%20
 Best%20regards,%20[Your%20Name]"
-                          className="contacts-contact-location flex items-center md:gap-[1.5rem] gap-[1.1rem] group">
+                          className="contacts-contact-location flex items-center md:gap-[1.5rem] gap-[1.1rem] group duration-500">
                           <span className=" flex justify-center items-center text-[1.5rem] h-[3.5rem] w-[3.5rem] rounded-4xl text-[var(--main-color)] bg-[var(--background-color)]">
-                              <HiOutlineMail className="group-hover:scale-110 group-hover:rotate-15 duration-300, group-hover:text-[var(--yellow-color)]" />
+                              <HiOutlineMail className="group-hover:scale-110 group-hover:rotate-360 duration-500, group-hover:text-[var(--yellow-color)]" />
                           </span>
                           <span className="hover:text-[var(--background-color)] duration-300 md:text-[1.5rem] text-[.9rem]">Muhammed.hsn@outlook.com</span>
                       </a>

@@ -4,21 +4,19 @@ import CustomContainer from "../../../componant/ui/customContainer/CustomContain
 export default function HeaderHomePage() {
     const experience = new Date().getFullYear() - 2015;
     const target = experience;
-
     const pro = 3000;
-    
     const clientsTarget = 15;
-    
     const [count, setCount] = React.useState(0);
     const [projectsDone, setprojectsDone] = React.useState(0);
     const [clients, setClients] = React.useState(0);
     useEffect(() => {
-        let timer
+        let timer;
         if (count < target) {
-        timer = setTimeout(() => setCount((prev) => prev + 1), 100), [];
-        return () => clearInterval(timer);
-        }                               
+            timer = setTimeout(() => setCount((prev) => prev + 1), 100);
+        }
+        return () => clearTimeout(timer);
     }, [count, target]);
+
   useEffect(() => {
       const targetProjects = 3000;
       if (projectsDone < pro) {
@@ -26,13 +24,14 @@ export default function HeaderHomePage() {
           return () => clearTimeout(t);
       }
   }, [projectsDone]);
-    useEffect(() => {
-        let clientsTimer
-        if (clients < clientsTarget) {
-        clientsTimer = setTimeout(() => setClients((prev) => prev + 1), 100), [];
-        return () => clearInterval(clientsTimer);
-        }
-    },[clients])
+   useEffect(() => {
+       let clientsTimer;
+       if (clients < clientsTarget) {
+           clientsTimer = setTimeout(() => setClients((prev) => prev + 1), 100);
+       }
+       return () => clearTimeout(clientsTimer);
+   }, [clients, clientsTarget]);
+
 
     return (
         <div

@@ -14,16 +14,15 @@ export default function NavBar() {
             <CustomContainer className="relative">
                 <div className="navbar text-white flex justify-between items-center ">
                     <Logo />
-                    <span className="cursor-pointer z-60 lg:hidden absolute md:right-10 md:top-17.5 right-6 " onClick={() => setIsOpen(!isOpen)}>
+                    <span className={`cursor-pointer z-60 lg:hidden ${isOpen ? "fixed right-6 top-18" : "absolute md:right-10 md:top-17.5 right-6 "} `} onClick={() => setIsOpen(!isOpen)}>
                         {isOpen ? <MdClose size={26} /> : <CgMenuLeft size={26} />}
                     </span>
-
                     <div
                         className={`nav-menu fixed inset-0 bg-[#003060] z-50 flex flex-col justify-center items-center duration-500
                             ${isOpen ? "opacity-100 visible" : "opacity-0 invisible"} 
                             lg:static lg:flex lg:flex-row lg:gap-[5rem] lg:bg-transparent lg:opacity-100 lg:visible`}>
                         <div className="mt-10 mb-8 gap-10 lg:hidden">
-                            <Logo />
+                            <Logo className="lg:hidden" />
                         </div>
                         <ul
                             className={` flex justify-center text-[#ffffffcc]  items-center xl:text-[1rem] lg:text-[1rem] md:text-[.95rem] font-[600] md:gap-[3rem] gap-[1rem] lg:flex-row md:flex-col flex-col lg:gap-[5rem] `}>
@@ -41,7 +40,10 @@ export default function NavBar() {
                             </NavLink>
                         </ul>
                     </div>
-                    <div className="nav-icon flex justify-center items-center lg:gap-[2rem] md:gap-[1.5rem] gap-[1.3rem] relative lg:right-0  md:right-15 right-13 z-60">
+                    <div
+                        className={`nav-icon flex justify-center items-center lg:gap-[2rem] md:gap-[1.5rem] gap-[1.3rem] relative lg:right-0  md:right-15 right-13 z-60 ${
+                            isOpen ? "hidden lg:flex" : "flex"
+                        }`}>
                         <a href="https://www.linkedin.com/in/mohamed-hassan-25b95896/." target="_blank" rel="noopener noreferrer">
                             <FaLinkedin size={20} className="cursor-pointer duration-300 hover:text-[#0072b1] " />
                         </a>

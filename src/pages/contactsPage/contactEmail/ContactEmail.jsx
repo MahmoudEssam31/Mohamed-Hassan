@@ -17,10 +17,10 @@ export default function ContactEmail() {
                 onSubmit={(values, { resetForm }) => {
                     emailjs
                         .send(
-                            "service_30yziul", // Service ID
-                            "template_b03lv7j", // Template ID
-                            values, // القيم اللى جاية من الفورم
-                            "pFtEbPmGMBqxiuWp4", // Public key
+                            "service_30yziul", 
+                            "template_b03lv7j", 
+                            values, 
+                            "pFtEbPmGMBqxiuWp4", 
                         )
                         .then(
                             (result) => {
@@ -32,7 +32,7 @@ export default function ContactEmail() {
                                 console.log(error.text);
                                 alert("Message failed to send.");
                             },
-                        );
+                    );
                 }}>
                 <Form>
                     <FieldWrapper name={"name"} label={"First Name *"} type={"name"} placeholder={"E.g. John"} />

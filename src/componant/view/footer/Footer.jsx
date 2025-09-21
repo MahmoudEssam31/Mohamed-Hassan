@@ -14,14 +14,13 @@ export default function Footer() {
                     <div className="copy-right flex justify-center items-center flex-col">
                         <h2>© 2025 Powered by:</h2>
                         <div className="powered flex items-center gap-2">
-
-                        <a
-                            className="flex items-center justify-center gap-1 hover:text-[var(--background-color)] duration-200"
-                            href="https://www.linkedin.com/in/mahmoud-essam-11435684?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-                            target="_blank"
-                            rel="noopener noreferrer">
-                            Mahmoud Essam{" "}
-                        </a>
+                            <a
+                                className="flex items-center justify-center gap-1 hover:text-[var(--background-color)] duration-200"
+                                href="https://www.linkedin.com/in/mahmoud-essam-11435684?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                                target="_blank"
+                                rel="noopener noreferrer">
+                                Mahmoud Essam{" "}
+                            </a>
                             <a href="https://wa.me/201220204045?text=" target="_blank" rel="noopener noreferrer">
                                 <FaWhatsapp size={10} className="cursor-pointer duration-300 hover:text-[#25D366]" />
                             </a>
@@ -55,8 +54,7 @@ I%20checked%20your%20portfolio%20and%20would%20like%20to%20know %20more%20about%
                             <FaWhatsapp size={20} className="cursor-pointer duration-300 hover:text-[#25D366] " />
                         </a>
                         <a
-                            href="mailto:Muhammed.hsn@outlook.com?subject=Hello%20Mohamed%0Abody=I%20came%20across%20your%20portfolio%20and%20I’m%20interested%20in%20learning%20more%20about%20your%20data%20processing%20and%20analytics%20services.%0ACould%20you%20please%20share%20more%20details?%20
-Best%20regards,%0A[Your%20Name]"
+                            href="mailto:Muhammed.hsn@outlook.com?subject=Hello%20Mohamed&body=I%20came%20across%20your%20portfolio%20and%20I%E2%80%99m%20interested%20in%20learning%20more%20about%20your%20data%20processing%20and%20analytics%20services.%0A%0ACould%20you%20please%20share%20more%20details%3F%0A%0ABest%20regards%2C%20[Your%20Name]"
                             target="_blank"
                             rel="noopener noreferrer">
                             <HiOutlineMail size={24} className="cursor-pointer duration-300 hover:text-[#1877F2] " />

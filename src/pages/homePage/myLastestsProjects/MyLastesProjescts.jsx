@@ -9,7 +9,7 @@ export default function MyLastesProjescts() {
           <div className="my-lastest-projects-left flex flex-col md:gap-[2rem] gap-[1rem] overflow-x-hidden " data-aos="fade-right" data-aos-delay="100">
               <h2 className="md:text-[2.8rem] text-[1.8rem] leading-[1.5em] font-[400] uppercase font-[Staatliches]">My latest projects</h2>
               <span className=" md:text-[1rem] text-[.9rem] w-[60%] leading-[1.5em] text-gray-400">Discover my latest work in data analytics and market research solutions</span>
-              <div className="my-lastest-projects-left-img flex flex-col gap-[1rem] justify-start items-start ms-[-1.2rem]">
+              <div className="my-lastest-projects-left-img flex flex-col gap-[1rem] justify-start items-start ms-[-1.2rem] ">
               {lastestProjectsData
                   .filter((item) => [1, 2].includes(item.id))
                   .map((item) => (

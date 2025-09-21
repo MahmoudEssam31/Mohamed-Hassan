@@ -41,7 +41,7 @@ export default function NavBar() {
                             </NavLink>
                         </ul>
                     </div>
-                    <div className="nav-icon flex justify-center items-center lg:gap-[2rem] md:gap-[1.5rem] gap-[1.3rem] relative lg:right-0  md:right-15 right-13 z-10">
+                    <div className="nav-icon flex justify-center items-center lg:gap-[2rem] md:gap-[1.5rem] gap-[1.3rem] relative lg:right-0  md:right-15 right-13 z-60">
                         <a href="https://www.linkedin.com/in/mohamed-hassan-25b95896/." target="_blank" rel="noopener noreferrer">
                             <FaLinkedin size={20} className="cursor-pointer duration-300 hover:text-[#0072b1] " />
                         </a>
@@ -53,8 +53,7 @@ I%20checked%20your%20portfolio%20and%20would%20like%20to%20know %20more%20about%
                             <FaWhatsapp size={20} className="cursor-pointer duration-300 hover:text-[#25D366] " />
                         </a>
                         <a
-                            href="mailto:Muhammed.hsn@outlook.com?subject=Hello%20Mohamed&%0Abody=I%20came%20across%20your%20portfolio%20and%20I’m%20interested%20in%20learning%20more%20about%20your%20data%20processing%20and%20analytics%20services.%0A%20Could%20you%20please%20share%20more%20details?%20
-Best%20regards,%20[Your%20Name]"
+                            href="mailto:Muhammed.hsn@outlook.com?subject=Hello%20Mohamed&body=I%20came%20across%20your%20portfolio%20and%20I%E2%80%99m%20interested%20in%20learning%20more%20about%20your%20data%20processing%20and%20analytics%20services.%0A%0ACould%20you%20please%20share%20more%20details%3F%0A%0ABest%20regards%2C%20[Your%20Name]"
                             target="_blank"
                             rel="noopener noreferrer">
                             <HiOutlineMail size={24} className="cursor-pointer duration-300 hover:text-[#1877F2] " />

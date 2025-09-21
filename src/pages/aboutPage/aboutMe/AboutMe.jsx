@@ -9,7 +9,7 @@ export default function AboutMe() {
               <ul className="list-disc text-gray-500 ms-8 flex gap-2 flex-col text-[1rem]">
                   <li>Freelance & Employee Experience</li>
                   <li>17+ Years in Market Research</li>
-                  <li>1500+ Projects</li>
+                  <li>3000+ Projects</li>
                   <li>Founder of Data Shark</li>
                   <li>Specialized in Data Processing and Analysis.</li>
                   <li>More than 10 years professional experience in scripting, tabulation, coding, data cleaning, dashboards.</li>

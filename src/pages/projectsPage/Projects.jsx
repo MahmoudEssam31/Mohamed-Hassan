@@ -16,8 +16,8 @@ export default function Projects({img,title,name }) {
                   <h2 className="xl:text-[2.81rem] lg:text-[2.21rem] md:text-[2.2rem] text-[1.7rem] leading-[1.5em] font-[500] font-[Staatliches] uppercase">Creative. Professional. Ethical.</h2>
                   <div className="projects-List">
                       <ul className="list-disc text-gray-500 ms-8 flex gap-2 flex-col text-[1.1rem]">
-                          <li>Delivered 1500+ projects across Egypt, MENA region and others.</li>
-                          <li>Served 16+ freelance clients in the last 5 years.</li>
+                          <li>Delivered 3000+ projects across Egypt, MENA region and others.</li>
+                          <li>Served 15+ freelance clients in the last 5 years.</li>
                           <li>Reputation for quality, commitment, and professionalism.</li>
                       </ul>
                   </div>

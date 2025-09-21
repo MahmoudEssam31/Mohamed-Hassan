@@ -5,7 +5,7 @@ export default  function MyLastesProCard({ id, img, title, name, className, imgC
     return (
         <div
             className={clsx(
-                `my-lastest-proj-card relative flex xl:w-[42.8rem] xl:h-[41.8rem] lg:w-[37.7rem] lg:h-[37.5rem] xl:px-2 lg:px-4.5 md:px-4.5 md:w-[27.31rem] md:h-[26.56rem] w-[100%] h-[26.56rem] overflow-hidden group hover:rounded-[2rem] duration-500 ease-in justify-center items-center, ${className} `,
+                `my-lastest-proj-card relative flex xl:w-[42.8rem] xl:h-[41.8rem] lg:w-[37.7rem] lg:h-[37.5rem] xl:px-2 lg:px-4.5 md:px-4.5 md:w-[27.31rem] md:h-[26.56rem] w-[100%] h-[26.56rem] overflow-hidden group  duration-500 ease-in justify-center items-center, ${className}`,
             )}>
             <div className="my-lastest-proj-card-overflow bg-[#0f0f0f45] w-[100%] h-[100%] absolute z-20 group-hover:inset-0 hidden group-hover:block duration-700"></div>
             <img

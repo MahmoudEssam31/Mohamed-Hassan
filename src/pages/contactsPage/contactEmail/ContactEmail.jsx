@@ -17,10 +17,10 @@ export default function ContactEmail() {
                 onSubmit={(values, { resetForm }) => {
                     emailjs
                         .send(
-                            "YOUR_SERVICE_ID", // Service ID
-                            "YOUR_TEMPLATE_ID", // Template ID
+                            "service_30yziul", // Service ID
+                            "template_b03lv7j", // Template ID
                             values, // القيم اللى جاية من الفورم
-                            "YOUR_PUBLIC_KEY", // Public key
+                            "pFtEbPmGMBqxiuWp4", // Public key
                         )
                         .then(
                             (result) => {
@@ -40,7 +40,13 @@ export default function ContactEmail() {
                     <label htmlFor="message" className="block mb-2 text-sm font-medium text-gray-900">
                         {"Message *"}
                     </label>
-                    <Field className="lg:w-[60%] md:w-[70%] w-[100%] h-[12rem] bg-[var(--bg-form)] p-2 border " as="textarea" id="message" name="message" placeholder="Enter your message" />
+                    <Field
+                        className="lg:w-[60%] md:w-[70%] w-[100%] h-[12rem] bg-[var(--bg-form)] p-2 border focus:outline-none focus:border-blue-500 "
+                        as="textarea"
+                        id="message"
+                        name="message"
+                        placeholder="Enter your message"
+                    />
                     <ErrorMessage name="message" component="div" className="text-red-600 text-sm mt-1" />
                     <button
                         className="w-[10rem] h-[4rem] bg-[var(--background-color)] text-[var(--main-color)] text-[1rem] font-[600] border border-[var(--bg-form)] flex justify-center items-center rounded-3xl my-[2rem] cursor-pointer hover:bg-[var(--yellow-color)] hover:text-[var(--background-color)] duration-300"

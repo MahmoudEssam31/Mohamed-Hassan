@@ -13,7 +13,10 @@ export default function LetsTalk({ classNamecontainer, classNametext, classNameI
                     Let’s talk about your project
                 </h2>
                 <a
-                    href="https://wa.me/201000651512?text=Hello%20I%20want%20to%20hire%20you"
+                    href="https://wa.me/201000651512?text=Hi%20Hassan%20👋, 
+I%20checked%20your%20portfolio%20and%20would%20like%20to%20know %20more%20about%20your%20services!%20"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="btn bg-[var(--background-color)] text-[1rem] text-[var(--main-color)] lg:w-[12.5rem] lg:h-[4rem] md:w-[10.9rem] md:h-[3.2rem] w-[11.2rem] h-[3.5rem] rounded-2xl flex font-[600] justify-center items-center hover:bg-[var(--yellow-color)] duration-300 hover:text-[var(--background-color)]">
                     <span className="uppercase">Contact me</span>
                 </a>
